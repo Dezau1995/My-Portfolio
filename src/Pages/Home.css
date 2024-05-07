@@ -1,0 +1,98 @@
+.home-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: solid 2px var(--secondary-color); */
+}
+
+.title-name {
+  background-color: var(--secondary-block-color);
+  width: max-content;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.title-name h1 {
+  color: var(--typo-darkbg-color);
+  font-size: 30px;
+}
+
+.header-job {
+  display: flex;
+  justify-content: center;
+  background-color: var(--third-color);
+  width: 80vw;
+  border-radius: 10px;
+}
+
+.header-job h1 {
+  color: var(--main-color);
+  font-size: 100px;
+  line-height: 113.5%;
+  /* box-shadow: -31px -25px 0px 0px var(--typo-darkbg-color); */
+}
+
+.description-job {
+  background-color: var(--secondary-block-color);
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description-job p {
+  color: var(--typo-darkbg-color);
+  font-size: 30px;
+}
+
+.btns-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-navigation {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-navigation:hover{
+    color: var(--typo-darkbg-color);
+}
+
+.link-btn {
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.linkedin-btn {
+  color: var(--typo-darkbg-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkedin-btn:hover{
+    color: var(--secondary-color);
+}
+
+.btn-email {
+  padding: 0;
+  color: var(--typo-darkbg-color);
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-email:hover{
+    color: var(--secondary-color);
+}
