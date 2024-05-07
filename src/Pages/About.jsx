@@ -1,20 +1,11 @@
-import { useNavigate } from "react-router-dom";
+import Footer from "../Components/Footer";
 
 function About() {
-  const navigate = useNavigate();
+
 
   return (
     <div>
-      <div className="display-btn-close">
-        <p
-          className="btn-close"
-          onClick={() => {
-            navigate("/");
-          }}
-        >
-          CLOSE
-        </p>
-      </div>
+      <Footer/>
     </div>
   );
 }
