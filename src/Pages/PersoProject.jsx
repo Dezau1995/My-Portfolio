@@ -2,13 +2,12 @@ import Footer from "../Components/Footer";
 import "./PersoProject.css";
 
 function PersoProject() {
-
   return (
-    <div>
+    <div className="perso-project-body">
       <div className="wip-header">
         <h1 className="">Work In Progress ...</h1>
       </div>
-     <Footer/>
+      <Footer />
     </div>
   );
 }
