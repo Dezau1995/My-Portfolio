@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  /* border: solid 2px var(--secondary-color); */
 }
 
 .title-name {
@@ -112,4 +111,43 @@
 
 .btn-email:hover {
   color: var(--secondary-color);
+}
+
+@media (min-width: 320px) and (max-width: 932px){
+
+  .home-display{
+    gap: 50px;
+  }
+
+  .title-name h1 {
+    color: var(--typo-darkbg-color);
+    font-size: 20px;
+  }
+
+  .header-job h1{
+    color: var(--main-color);
+    font-size: 30px;
+    line-height: 113.5%;
+    margin: 15px 15px;
+    text-align: center;
+  }
+
+  .text-decoration{
+    text-shadow: var(--typo-darkbg-color) -5px -5px;
+  }
+
+  .description-job{
+    width: 90vw;
+  }
+
+  .description-job p{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .btns-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
