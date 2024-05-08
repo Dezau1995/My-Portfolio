@@ -25,9 +25,10 @@
   justify-content: center;
   align-items: center;
   background-color: var(--third-color);
-  width: 80vw;
+  width: max-content;
   height: 45vh;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px 6px black;
 }
 
 .header-job h1 {
@@ -66,6 +67,7 @@
   margin: 5px;
   cursor: pointer;
   font-size: 16px;
+  box-shadow: 0px 0px 10px 0px black;
 }
 
 .btn-navigation:hover {
