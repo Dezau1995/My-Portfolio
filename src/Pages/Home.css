@@ -23,16 +23,23 @@
 .header-job {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--third-color);
-  width: 80vw;
+  width: max-content;
+  height: 45vh;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px 6px black;
 }
 
 .header-job h1 {
   color: var(--main-color);
   font-size: 100px;
   line-height: 113.5%;
-  /* box-shadow: -31px -25px 0px 0px var(--typo-darkbg-color); */
+  margin: 15px 15px;
+}
+
+.text-decoration {
+  text-shadow: var(--typo-darkbg-color) -12px -18px;
 }
 
 .description-job {
@@ -59,10 +66,12 @@
   border-radius: 5px;
   margin: 5px;
   cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px 0px black;
 }
 
-.btn-navigation:hover{
-    color: var(--typo-darkbg-color);
+.btn-navigation:hover {
+  color: var(--typo-darkbg-color);
 }
 
 .link-btn {
@@ -71,6 +80,7 @@
   border: none;
   border-radius: 5px;
   margin: 5px;
+  font-size: 16px;
 }
 
 .linkedin-btn {
@@ -79,8 +89,15 @@
   cursor: pointer;
 }
 
-.linkedin-btn:hover{
-    color: var(--secondary-color);
+.linkedin-btn:hover {
+  color: var(--secondary-color);
+}
+
+.send-email-btn {
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 5px;
 }
 
 .btn-email {
@@ -93,6 +110,6 @@
   cursor: pointer;
 }
 
-.btn-email:hover{
-    color: var(--secondary-color);
+.btn-email:hover {
+  color: var(--secondary-color);
 }

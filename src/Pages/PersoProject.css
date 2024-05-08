@@ -1,3 +1,10 @@
+.perso-project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .wip-header {
   display: flex;
   height: 90vh;
