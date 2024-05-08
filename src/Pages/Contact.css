@@ -1,0 +1,33 @@
+.contact-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 60px;
+}
+
+.header-contact {
+  background-color: var(--third-color);
+  width: 90vw;
+  height: 45vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 6px black;
+}
+
+.contact-text-decoration {
+  color: var(--main-color);
+  font-size: 100px;
+  line-height: 113.5%;
+  margin: 15px 15px;
+  text-shadow: var(--typo-darkbg-color) -12px -18px;
+}
+
+.section-contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.contact-info {
+}
