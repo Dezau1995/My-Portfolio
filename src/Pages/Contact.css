@@ -29,5 +29,5 @@
   width: 90vw;
 }
 
-.contact-info {
+@media (min-width: 320px) and (max-width: 932px) {
 }

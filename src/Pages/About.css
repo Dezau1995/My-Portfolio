@@ -104,3 +104,44 @@
   color: var(--typo-darkbg-color);
   background-color: var(--secondary-block-color);
 }
+
+@media (min-width: 320px) and (max-width: 932px) {
+  .header-about {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .image-profile {
+    width: 170px;
+    height: 170px;
+  }
+
+  .section-infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .who-container {
+    width: 60vw;
+    font-size: 12px;
+  }
+
+  .fun-facts-container {
+    width: 60vw;
+    font-size: 12px;
+  }
+
+  .title-infos {
+    font-size: 17px;
+  }
+
+  .title-description {
+    font-size: 17px;
+  }
+
+  .section-description {
+    font-size: 12px;
+  }
+}
