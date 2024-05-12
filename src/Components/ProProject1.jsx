@@ -1,9 +1,9 @@
-import Footer from "../Components/Footer";
-import "./ProProject.css";
+import Footer from "./Footer";
+import "./ProProject1.css";
 import whireframe_P1 from "../assets/image/whireframe-lesrecetteswild.png";
 import maquette_P1 from "../assets/image/maquette-lesrecetteswild.png";
 
-function ProProject() {
+function ProProject1() {
   return (
     <div className="display-pro-project-page">
       <section className="section-title-project">
@@ -29,16 +29,29 @@ function ProProject() {
             HTML, CSS AND THE BASICS OF JAVASCRIPT.
           </p>
         </section>
-        <section className="section-description">
-          <h2 className="title-description">DESCRIPTION</h2>
-          <p></p>
+        <section className="section-description-pro">
+          <h2 className="title-description-pro-project">DESCRIPTION</h2>
+          <p>
+            WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (THE
+            PEOPLE AT THE WILD CODE SCHOOL).
+            <br />
+            <br />
+            BECAUSE OF LACK OF IDEA, TIME AND DESIRE.
+            <br />
+            <br />
+            HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.
+          </p>
         </section>
       </section>
-      <section>
-        <h3>WHIREFRAME & MODELS</h3>
+      <section className="section-whireframe-models">
+        <h3 className="title-section-whireframe">WHIREFRAME & MODELS</h3>
         <div className="display-image">
-          <img src={whireframe_P1} alt="whireframe" />
-          <img src={maquette_P1} alt="maquette" />
+          <img
+            src={whireframe_P1}
+            alt="whireframe"
+            className="picture-whireframe"
+          />
+          <img src={maquette_P1} alt="models" className="picture-models" />
         </div>
       </section>
       <Footer />
@@ -46,4 +59,4 @@ function ProProject() {
   );
 }
 
-export default ProProject;
+export default ProProject1;
