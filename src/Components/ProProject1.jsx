@@ -1,7 +1,8 @@
-import Footer from "./Footer";
-import "./ProProject1.css";
-import whireframe_P1 from "../assets/image/whireframe-lesrecetteswild.png";
-import maquette_P1 from "../assets/image/maquette-lesrecetteswild.png";
+import "./ProProject.css";
+import whireframe_P1 from "../assets/image/picture-lrw/whireframe-lesrecetteswild.png";
+import maquette_P1 from "../assets/image/picture-lrw/maquette-lesrecetteswild.png";
+import FooterProject from "./FooterProject";
+import SliderProject1 from "./SliderProject1";
 
 function ProProject1() {
   return (
@@ -16,8 +17,8 @@ function ProProject1() {
       <section className="section-presentation">
         <section className="section-introduction">
           <h2 className="title-introduction">INTRODUCTION</h2>
-          <p>
-            I PRESENT TO YOU MY FIRST MY FIRST WEBSITE PROJECT AFTER A MONTH OF
+          <p className="paragraph-project">
+            I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF
             TRAINING AS A WEB DEVELOPMENT STUDENT.
             <br />
             <br />
@@ -31,9 +32,9 @@ function ProProject1() {
         </section>
         <section className="section-description-pro">
           <h2 className="title-description-pro-project">DESCRIPTION</h2>
-          <p>
+          <p className="paragraph-project">
             WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (THE
-            PEOPLE AT THE WILD CODE SCHOOL).
+            PEOPLE AT THE WILD CODE SCHOOL) TO PREPARE THEIR LUNCH MORE OFTEN.
             <br />
             <br />
             BECAUSE OF LACK OF IDEA, TIME AND DESIRE.
@@ -54,7 +55,8 @@ function ProProject1() {
           <img src={maquette_P1} alt="models" className="picture-models" />
         </div>
       </section>
-      <Footer />
+      <SliderProject1/>
+      <FooterProject />
     </div>
   );
 }
