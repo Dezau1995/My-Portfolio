@@ -86,3 +86,13 @@
     text-align: center;
   }
 }
+
+/* @media (min-width: 933px) and (max-width: 1200px){
+  .title-name h1{
+    font-size: 30px;
+  }
+
+  .header-job h1{
+    font-size: 40px;
+  }
+} */

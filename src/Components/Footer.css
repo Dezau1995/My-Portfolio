@@ -1,7 +1,17 @@
-/* .display-btn-close{
-  position: fixed;
-  bottom: 0;
-} */
+.display-btn-close {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-icon {
+  width: 50%;
+  height: 50%;
+}
+
+.home-icon:hover {
+  color: var(--secondary-color);
+}
 
 .btn-close {
   display: flex;
@@ -22,6 +32,4 @@
   color: var(--typo-darkbg-color);
   border: 1px solid var(--typo-darkbg-color);
   font-size: 15px;
-  width: 55px;
-  height: 55px;
 }

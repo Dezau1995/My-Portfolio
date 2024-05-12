@@ -20,7 +20,7 @@
   font-size: 100px;
   line-height: 113.5%;
   margin: 15px 15px;
-  text-shadow: var(--typo-darkbg-color) -12px -18px;
+  text-shadow: var(--typo-darkbg-color) -10px -5px;
 }
 
 .section-contact-info {
