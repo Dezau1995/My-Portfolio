@@ -73,7 +73,7 @@
   color: var(--main-color);
 }
 
-.section-description {
+.section-description-about {
   margin: 40px 0;
   background-color: var(--secondary-color);
   color: var(--main-color);
@@ -82,7 +82,7 @@
   padding: 10px 15px;
 }
 
-.title-description {
+.title-description-about {
   font-size: 25px;
   margin-bottom: 5px;
 }
@@ -109,6 +109,10 @@
   .header-about {
     font-size: 20px;
     padding: 5px;
+  }
+
+  .section-image-profile{
+    height: 40vh;
   }
 
   .image-profile {
@@ -141,7 +145,8 @@
     font-size: 17px;
   }
 
-  .section-description {
+  .section-description-about {
     font-size: 12px;
+    width: 80%;
   }
 }

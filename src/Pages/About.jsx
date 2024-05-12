@@ -37,8 +37,8 @@ function About() {
             </p>
           </div>
         </section>
-        <section className="section-description">
-          <h2 className="title-description">DESCRIPTION</h2>
+        <section className="section-description-about">
+          <h2 className="title-description-about">DESCRIPTION</h2>
           <p>
             I STUDIES ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
             CONTINUED MY STUDIES IN GRAPHIC DESIGN, BUT I STARTED WORKING AS A

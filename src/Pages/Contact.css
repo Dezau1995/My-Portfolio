@@ -27,7 +27,20 @@
   display: flex;
   flex-direction: column;
   width: 90vw;
+  gap: 10px;
 }
 
 @media (min-width: 320px) and (max-width: 932px) {
+.header-contact{
+  display: flex;
+}
+
+  .contact-text-decoration {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: var(--typo-darkbg-color) -5px -5px;
+    margin: 15px 15px;
+
+  }
 }

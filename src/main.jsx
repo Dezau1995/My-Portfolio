@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client'; 
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
-import App from './App.jsx'; 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App.jsx";
 import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
-import ProProject from "./Pages/ProProject.jsx";
-import PersoProject from './Pages/PersoProject.jsx';
+import ProProject1 from "./Components/ProProject1.jsx";
+import PersoProjectHome from "./Pages/PersoProjectHome.jsx";
+import ProProjectHome from "./Pages/ProProjectHome.jsx";
 import Contact from "./Pages/Contact.jsx";
-// import './index.css'; 
+// import './index.css';
 
 const router = createBrowserRouter([
   {
@@ -15,33 +16,35 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path:"/",
+        path: "/",
         element: <Home />,
       },
       {
-        path:"/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path:"/pro-project",
-        element: <ProProject />,
+        path: "/pro-project",
+        element: <ProProjectHome />,
       },
       {
-        path:"/personnal-project",
-        element: <PersoProject/>
+        path: "/pro-project-1",
+        element: <ProProject1 />,
       },
       {
-        path:"/contact",
-        element: <Contact/>,
-      }
-    ]
+        path: "/personnal-project",
+        element: <PersoProjectHome />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
-  }
-
-])
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 );

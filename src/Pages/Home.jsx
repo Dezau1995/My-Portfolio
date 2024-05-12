@@ -1,10 +1,7 @@
+import NavBar from "../Components/NavBar";
 import "./Home.css";
-import { MdOutlineMail } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function Home() {
-  const navigate = useNavigate();
 
   return (
     <div className="home-display">
@@ -23,56 +20,7 @@ function Home() {
           full-stack developer
         </p>
       </div>
-      <div className="btns-nav">
-        <button
-          className="btn-navigation"
-          onClick={() => {
-            navigate("/about");
-          }}
-        >
-          ABOUT
-        </button>
-        <button
-          className="btn-navigation"
-          onClick={() => {
-            navigate("/pro-project");
-          }}
-        >
-          PRO PROJECT
-        </button>
-        <button
-          className="btn-navigation"
-          onClick={() => {
-            navigate("/personnal-project");
-          }}
-        >
-          PERSONNAL PROJECT
-        </button>
-        <button
-          className="btn-navigation"
-          onClick={() => {
-            navigate("/contact");
-          }}
-        >
-          CONTACT
-        </button>
-        <button className="link-btn">
-          <Link
-            className="linkedin-btn"
-            to="https://www.linkedin.com/in/aude-sedillo-abb68b2b9/"
-            target="_blank"
-          >
-            in
-          </Link>
-        </button>
-        <button className="send-email-btn">
-          {" "}
-          <Link className="btn-email" to="mailto:aude.sedillo@gmail">
-            {" "}
-            <MdOutlineMail />
-          </Link>
-        </button>
-      </div>
+      <NavBar/>
     </div>
   );
 }

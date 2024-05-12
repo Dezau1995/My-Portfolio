@@ -1,7 +1,7 @@
 import Footer from "../Components/Footer";
-import "./PersoProject.css";
+import "./PersoProjectHome.css";
 
-function PersoProject() {
+function PersoProjectHome() {
   return (
     <div className="perso-project-body">
       <div className="wip-header">
@@ -12,4 +12,4 @@ function PersoProject() {
   );
 }
 
-export default PersoProject;
+export default PersoProjectHome;
