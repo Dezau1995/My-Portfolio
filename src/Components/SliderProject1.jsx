@@ -60,7 +60,7 @@ function SliderProject1() {
         <p className="p-website-link">COME HAVE A LOOK ON THE WEBSITE :</p>
         <Link
           className="link-website"
-          to="https://maximmft.github.io/Les-recettes-Wild/index.html"
+          to="https://dezau1995.github.io/Les-recettes-Wild/"
           target="_blank"
         >
           CLICK HERE !
