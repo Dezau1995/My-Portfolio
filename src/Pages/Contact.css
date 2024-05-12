@@ -30,6 +30,26 @@
   gap: 10px;
 }
 
+.linkedin-link {
+  color: var(--typo-darkbg-color);
+  /* text-decoration: none; */
+  cursor: pointer;
+}
+
+.linkedin-link:hover {
+  color: var(--secondary-color);
+}
+
+.github-link{
+  color: var(--typo-darkbg-color);
+  /* text-decoration: none; */
+  cursor: pointer;
+}
+
+.github-link:hover {
+  color: var(--secondary-color);
+}
+
 @media (min-width: 320px) and (max-width: 932px) {
 .header-contact{
   display: flex;
