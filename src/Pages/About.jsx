@@ -1,10 +1,23 @@
 import Footer from "../Components/Footer";
 import "./About.css";
 import aboutImageProfil from "../assets/image/image-profil.png";
+import { motion, useScroll, useSpring } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+
 
 function About() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
+  const navigate = useNavigate();
+
   return (
     <div className="body-about">
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-header-about">
         <h1 className="header-about">A LITTLE FEW THINGS ABOUT ME</h1>
       </section>
@@ -40,10 +53,10 @@ function About() {
         <section className="section-description-about">
           <h2 className="title-description-about">DESCRIPTION</h2>
           <p>
-            I STUDIES ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
+            I'VE STUDIED ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
             CONTINUED MY STUDIES IN GRAPHIC DESIGN, BUT I STARTED WORKING AS A
-            SALESWOMAN. SINCE THEN I WAS WORKING IN DIFFERENT SHOP AS A SALER,
-            THEN I EVOLVED AS AN ASSISTANT MANAGER.
+            SALESWOMAN. SINCE THEN I WORKED IN DIFFERENT SHOP AS A SALER, THEN I
+            EVOLVED AS AN ASSISTANT MANAGER.
             <br />
             <br />
             AFTER A FEW YEARS IN STORES, I DECIDED TO SEEK MY WAY AND DO A
@@ -56,10 +69,33 @@ function About() {
           </p>
         </section>
       </section>
+      <section className="section-web-skills">
+        <h2 className="title-web-skills">WEB SKILLS</h2>
+        <div className="display-subtitle">
+          <div className="display-skills">
+            <p className="subtitle-web-skills">LANGUAGES :</p>
+            <p>JAVASCRIPT - HTML - CSS - SQL</p>
+          </div>
+          <div className="display-skills">
+            <p className="subtitle-web-skills">FRAMEWORKS :</p>
+            <p>REACT</p>
+          </div>
+          <div className="display-skills">
+            <p className="subtitle-web-skills">PLATEFORMS :</p>
+            <p>GITHUB - MySQL</p>
+          </div>
+        </div>
+      </section>
       <section className="section-about-more">
-        <button className="btn-more">MORE</button>
-        <button className="btn-more">MORE</button>
-        <button className="btn-more">MORE</button>
+        <button className="btn-more" onClick={() => {
+            navigate("/pro-project");
+          }}>PRO PROJECT</button>
+        <button className="btn-more" onClick={() => {
+            navigate("/personnal-project");
+          }}>PERSONNAL PROJECT</button>
+        <button className="btn-more"  onClick={() => {
+            navigate("/contact");
+          }}>CONTACT</button>
       </section>
       <Footer />
     </div>

@@ -119,8 +119,18 @@
   width: 20%;
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--typo-darkbg-color);
+  transform-origin: 0%;
+}
+
 @media (min-width: 320px) and (max-width: 932px) {
-  .section-title-project{
+  .section-title-project {
     width: 80%;
   }
 
