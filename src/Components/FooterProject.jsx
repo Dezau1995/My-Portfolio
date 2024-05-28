@@ -7,7 +7,10 @@ function FooterProject() {
 
   return (
     <footer className="display-btn-close">
-      <CiHome onClick={() => navigate("/")} className="home-icon" />
+      <p onClick={() => navigate("/")} className="home-icon">
+        {" "}
+        <CiHome onClick={() => navigate("/")} className="home-icon" /> Back home
+      </p>
       <p className="btn-close" onClick={() => navigate("/pro-project")}>
         CLOSE
       </p>

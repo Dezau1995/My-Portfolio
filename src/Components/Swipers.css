@@ -18,10 +18,10 @@
 
 .swiper-button-next:after {
   cursor: pointer;
-  color: var(--secondary-block-color);
+  color: var(--typo-darkbg-color);
 }
 
 .swiper-button-prev:after {
-  color: var(--secondary-block-color);
+  color: var(--typo-darkbg-color);
   cursor: pointer;
 }

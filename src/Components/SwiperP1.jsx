@@ -13,10 +13,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
 
-function Swipers() {
-
-
-
+function SwiperP1() {
     return (
         <div className="list-swiper">
       <Swiper
@@ -81,4 +78,4 @@ function Swipers() {
     );
 }
 
-export default Swipers;
+export default SwiperP1;

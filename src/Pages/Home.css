@@ -6,21 +6,14 @@
   height: 100vh;
 }
 
-.nav-bar-home{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
 .title-name {
   background-color: var(--secondary-block-color);
   width: 20%;
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
-  box-shadow: 2px 1px 37px 2px rgba(0,0,0,1) inset;
-  -webkit-box-shadow: 2px 1px 3px 2px rgba(0,0,0,1) inset;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 1) inset;
   -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
 }
 
@@ -58,8 +51,8 @@
   width: max-content;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 2px 1px 37px 2px rgba(0,0,0,1) inset;
-  -webkit-box-shadow: 2px 1px 6px 2px rgba(0,0,0,1) inset;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 1) inset;
   -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
 }
 
@@ -68,14 +61,12 @@
   font-size: 30px;
 }
 
-
-@media (min-width: 320px) and (max-width: 932px){
-
+@media (min-width: 320px) and (max-width: 932px) {
   /* .home-display{
     gap: 50px;
   } */
 
-  .title-name{
+  .title-name {
     width: 35%;
   }
 
@@ -84,7 +75,7 @@
     font-size: 20px;
   }
 
-  .header-job h1{
+  .header-job h1 {
     color: var(--main-color);
     font-size: 45px;
     line-height: 113.5%;
@@ -92,16 +83,16 @@
     text-align: center;
   }
 
-  .text-decoration{
+  .text-decoration {
     text-shadow: var(--typo-darkbg-color) -5px -5px;
   }
 
-  .description-job{
+  .description-job {
     width: 90vw;
   }
 
-  .description-job p{
-           font-size: 18px;
+  .description-job p {
+    font-size: 18px;
     text-align: center;
   }
 

@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: var(--secondary-color); */
   width: 80%;
   border-radius: 10px;
   gap: 20px;
@@ -36,8 +35,17 @@
 }
 
 .p-website-link {
-  color: var(--typo-darkbg-color);
+  color: var(--secondary-color);
   font-size: 25px;
+}
+
+.link-website {
+  color: var(--typo-darkbg-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.link-website:hover {
+  transform: scale(1.4);
 }
 
 @media (min-width: 320px) and (max-width: 932px) {

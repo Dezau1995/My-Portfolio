@@ -38,7 +38,6 @@ function Contact() {
             GitHub
           </Link>
         </p>
-        <p>Merci Coline pour ton aide et ton soutient durant tout le processus de création de mon portfolio !! </p>
       </section>
       <Footer />
     </div>

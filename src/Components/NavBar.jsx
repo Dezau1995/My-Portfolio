@@ -1,7 +1,7 @@
 import { MdOutlineMail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "./NavBar.css"
+import "./NavBar.css";
 
 function NavBar() {
   const navigate = useNavigate();

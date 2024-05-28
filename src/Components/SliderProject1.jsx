@@ -1,15 +1,12 @@
 import "./SliderProject.css";
 import { Link } from "react-router-dom";
-import Swipers from "./Swipers";
+import SwiperP1 from "./SwiperP1";
 
 function SliderProject1() {
   return (
     <section className="display-slider">
       <h1 className="title-section-website">THE WEBSITE</h1>
-
-    
-        <Swipers />
-
+      <SwiperP1 />
       <section className="section-website-link">
         <p className="p-website-link">COME HAVE A LOOK ON THE WEBSITE :</p>
         <Link
