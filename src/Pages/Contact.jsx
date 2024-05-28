@@ -9,7 +9,7 @@ function Contact() {
     <div className="contact-display">
       <section className="header-contact">
         <h1 className="contact-text-decoration">
-          IF YOU’RE INTERESTED BY
+          IF YOU’RE INTERESTED IN
           <br /> MY PROFILE,
           <br />
           GET IN TOUCH !
@@ -38,6 +38,7 @@ function Contact() {
             GitHub
           </Link>
         </p>
+        <p>Merci Coline pour ton aide et ton soutient durant tout le processus de création de mon portfolio !! </p>
       </section>
       <Footer />
     </div>

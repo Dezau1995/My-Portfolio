@@ -74,15 +74,15 @@ function About() {
         <div className="display-subtitle">
           <div className="display-skills">
             <p className="subtitle-web-skills">LANGUAGES :</p>
-            <p>JAVASCRIPT - HTML - CSS - SQL</p>
+            <p className="skills-dev-web">JAVASCRIPT - HTML - CSS - SQL</p>
           </div>
           <div className="display-skills">
             <p className="subtitle-web-skills">FRAMEWORKS :</p>
-            <p>REACT</p>
+            <p className="skills-dev-web">REACT</p>
           </div>
           <div className="display-skills">
             <p className="subtitle-web-skills">PLATEFORMS :</p>
-            <p>GITHUB - MySQL</p>
+            <p className="skills-dev-web">GITHUB - MySQL</p>
           </div>
         </div>
       </section>

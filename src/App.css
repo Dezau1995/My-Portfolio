@@ -1,6 +1,6 @@
 :root {
   --main-color: #252422;
-  --typo-darkbg-color: #058C42;
+  --typo-darkbg-color: #EB5E28;
   --secondary-color: #ccc5b9;
   --secondary-block-color: #403d39;
   --third-color: #fffcf2;
@@ -99,7 +99,7 @@ video {
 body {
   background-color: var(--main-color);
   font-family: var(--font-family);
-  color: var(--third-color);
+  color: var(--typo-darkbg-color);
 }
 
 .progress-bar {
@@ -110,4 +110,5 @@ body {
   height: 10px;
   background: var(--third-color);
   transform-origin: 0%;
+  z-index: 9999;
 }
