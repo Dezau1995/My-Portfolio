@@ -1,6 +1,6 @@
 :root {
   --main-color: #252422;
-  --typo-darkbg-color: #eb5e28;
+  --typo-darkbg-color: #EB5E28;
   --secondary-color: #ccc5b9;
   --secondary-block-color: #403d39;
   --third-color: #fffcf2;
@@ -100,4 +100,15 @@ body {
   background-color: var(--main-color);
   font-family: var(--font-family);
   color: var(--typo-darkbg-color);
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--third-color);
+  transform-origin: 0%;
+  z-index: 9999;
 }

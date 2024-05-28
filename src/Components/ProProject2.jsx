@@ -5,10 +5,19 @@ import filmFusion_Models from "../assets/image/picture-ff/FilmFusion-Models.png"
 import logo_desktop from "../assets/image/picture-ff/Logo-Desktop.svg";
 import logo_mobile from "../assets/image/picture-ff/Logo-Mobile.svg";
 import SliderProject2 from "./SliderProject2";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function ProProject2() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
-    <div className="display-pro-project-page">
+    <section className="display-pro-project-page">
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
           PROJECT 2 :
@@ -55,14 +64,18 @@ function ProProject2() {
             className="picture-models"
           />
           <section className="section-display-logo">
-            <img src={logo_desktop} alt="logo-desktop" className="logo-desktop"/>
+            <img
+              src={logo_desktop}
+              alt="logo-desktop"
+              className="logo-desktop"
+            />
             <img src={logo_mobile} alt="logo-mobile" className="logo-mobile" />
           </section>
         </div>
       </section>
       <SliderProject2 />
       <FooterProject />
-    </div>
+    </section>
   );
 }
 

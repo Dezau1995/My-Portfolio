@@ -5,12 +5,18 @@
 }
 
 .home-icon {
-  width: 50%;
-  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .home-icon:hover {
   color: var(--secondary-color);
+  transform: scale(1.2);
 }
 
 .btn-close {
@@ -26,10 +32,12 @@
   padding: 5px;
   cursor: pointer;
   margin: 30px 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn-close:hover {
   color: var(--typo-darkbg-color);
   border: 1px solid var(--typo-darkbg-color);
   font-size: 15px;
+  transform: scale(1.2);
 }

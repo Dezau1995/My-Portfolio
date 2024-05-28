@@ -9,7 +9,7 @@ function Contact() {
     <div className="contact-display">
       <section className="header-contact">
         <h1 className="contact-text-decoration">
-          IF YOU’RE INTERESTED BY
+          IF YOU’RE INTERESTED IN
           <br /> MY PROFILE,
           <br />
           GET IN TOUCH !

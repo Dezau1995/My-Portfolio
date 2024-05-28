@@ -8,14 +8,18 @@
 
 .title-name {
   background-color: var(--secondary-block-color);
-  width: max-content;
+  width: 20%;
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
 }
 
 .title-name h1 {
-  color: var(--typo-darkbg-color);
+  color: var(--secondary-color);
+  text-align: center;
   font-size: 30px;
 }
 
@@ -35,6 +39,7 @@
   font-size: 100px;
   line-height: 113.5%;
   margin: 15px 15px;
+  text-align: center;
 }
 
 .text-decoration {
@@ -46,18 +51,23 @@
   width: max-content;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
 }
 
 .description-job p {
-  color: var(--typo-darkbg-color);
+  color: var(--secondary-color);
   font-size: 30px;
 }
 
-
-@media (min-width: 320px) and (max-width: 932px){
-
-  .home-display{
+@media (min-width: 320px) and (max-width: 932px) {
+  /* .home-display{
     gap: 50px;
+  } */
+
+  .title-name {
+    width: 35%;
   }
 
   .title-name h1 {
@@ -65,25 +75,29 @@
     font-size: 20px;
   }
 
-  .header-job h1{
+  .header-job h1 {
     color: var(--main-color);
-    font-size: 30px;
+    font-size: 45px;
     line-height: 113.5%;
     margin: 15px 15px;
     text-align: center;
   }
 
-  .text-decoration{
+  .text-decoration {
     text-shadow: var(--typo-darkbg-color) -5px -5px;
   }
 
-  .description-job{
+  .description-job {
     width: 90vw;
   }
 
-  .description-job p{
-    font-size: 14px;
+  .description-job p {
+    font-size: 18px;
     text-align: center;
+  }
+
+  .btns-nav {
+    margin: 0;
   }
 }
 

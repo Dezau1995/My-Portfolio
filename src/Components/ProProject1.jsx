@@ -3,10 +3,19 @@ import whireframe_P1 from "../assets/image/picture-lrw/whireframe-lesrecetteswil
 import maquette_P1 from "../assets/image/picture-lrw/maquette-lesrecetteswild.png";
 import FooterProject from "./FooterProject";
 import SliderProject1 from "./SliderProject1";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function ProProject1() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
-    <div className="display-pro-project-page">
+    <section className="display-pro-project-page">
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
           PROJECT 1 :
@@ -18,8 +27,8 @@ function ProProject1() {
         <section className="section-introduction">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
-            I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF
-            TRAINING AS A WEB DEVELOPMENT STUDENT.
+            I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF TRAINING
+            AS A WEB DEVELOPMENT STUDENT.
             <br />
             <br />
             THIS PROJECT WAS DEVELOPED IN 2 WEEKS BY 3 PEOPLE: EMMANUELLE
@@ -55,9 +64,9 @@ function ProProject1() {
           <img src={maquette_P1} alt="models" className="picture-models" />
         </div>
       </section>
-      <SliderProject1/>
+      <SliderProject1 />
       <FooterProject />
-    </div>
+    </section>
   );
 }
 

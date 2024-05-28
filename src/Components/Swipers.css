@@ -1,0 +1,27 @@
+.list-swiper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 15px;
+  width: 80%;
+}
+
+.swiper-slide-active {
+  display: flex;
+  justify-content: center;
+}
+
+.picture-slider-swiper {
+  width: 85%;
+  border-radius: 10px;
+}
+
+.swiper-button-next:after {
+  cursor: pointer;
+  color: var(--typo-darkbg-color);
+}
+
+.swiper-button-prev:after {
+  color: var(--typo-darkbg-color);
+  cursor: pointer;
+}
