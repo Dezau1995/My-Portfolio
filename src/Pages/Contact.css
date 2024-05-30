@@ -4,8 +4,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 60px;
-  margin: 15px 0;
+}
+
+.section-header-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
 }
 
 .header-contact {

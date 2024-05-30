@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 function Contact() {
   return (
     <div className="contact-display">
+      <div className="section-header-contact">
       <section className="header-contact">
         <h1 className="contact-text-decoration">
           IF YOU’RE INTERESTED IN
@@ -15,6 +16,7 @@ function Contact() {
           GET IN TOUCH !
         </h1>
       </section>
+      </div>
       <section className="section-contact-info">
         <p className="contact-info">📍Paris, Ile-de-France, France</p>
         <p className="contact-info">📧 aude.sedillo@gmail.com</p>
