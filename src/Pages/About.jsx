@@ -19,9 +19,11 @@ function About() {
   return (
     <div className="body-about">
       <motion.div className="progress-bar" style={{ scaleX }} />
+      <div className="header">
       <section className="section-header-about">
         <h1 className="header-about">A LITTLE FEW THINGS ABOUT ME</h1>
       </section>
+      </div>
       <section className="section-image-profile">
         <img src={image_one} alt="image-profile" className="image-profile" />
         <img src={image_two} alt="image-profile" className="image-profile" />

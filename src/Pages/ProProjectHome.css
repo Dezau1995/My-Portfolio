@@ -11,9 +11,12 @@
   color: var(--typo-darkbg-color);
   background-color: var(--secondary-block-color);
   width: 80%;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
   margin: 10px 0;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
 }
 
 .title-pro-home {
@@ -33,7 +36,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 30%;
+  width: 35%;
   background-color: var(--third-color);
   border-radius: 10px;
   box-shadow: 0px 0px 15px 7px black;
