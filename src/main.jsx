@@ -6,7 +6,6 @@ import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
 import ProProject1 from "./Components/ProProject1.jsx";
 import PersoProjectHome from "./Pages/PersoProjectHome.jsx";
-import ProProjectHome from "./Pages/ProProjectHome.jsx";
 import Contact from "./Pages/Contact.jsx";
 import ProProject2 from "./Components/ProProject2.jsx";
 // import './index.css';
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
-      },
-      {
-        path: "/pro-project",
-        element: <ProProjectHome />,
       },
       {
         path: "/pro-project-1",
