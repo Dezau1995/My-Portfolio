@@ -103,6 +103,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100vw;
+  cursor: pointer;
 }
 
 .section-btn-workshop-hackathon {
