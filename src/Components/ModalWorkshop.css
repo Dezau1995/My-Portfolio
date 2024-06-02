@@ -78,7 +78,6 @@
   margin: 10px 0;
 }
 
-
 .section-btn-pro {
   display: flex;
   flex-direction: column;
@@ -104,6 +103,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100vw;
+  cursor: pointer;
 }
 
 .section-btn-workshop-hackathon {
