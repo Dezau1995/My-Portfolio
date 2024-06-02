@@ -1,0 +1,166 @@
+.modal-workshop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+}
+
+.button-close-workshop {
+  background-color: var(--secondary-block-color);
+  color: var(--typo-darkbg-color);
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  font-size: x-large;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px 0px var(--secondary-color);
+  margin-bottom: 5px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.workshop-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.display-pro-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title-pro-home {
+  text-align: center;
+  color: var(--typo-darkbg-color);
+  background-color: var(--secondary-block-color);
+  width: 80%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 2px 1px 37px 2px rgb(0, 0, 0) inset;
+}
+
+.title-pro-home {
+  font-size: 40px;
+}
+
+.title-project-pro-home {
+  font-size: 25px;
+  color: var(--typo-darkbg-color);
+  text-shadow: 0px 0px 1px black;
+}
+
+.title-site-pro {
+  font-size: 35px;
+  color: var(--secondary-color);
+  text-shadow: var(--typo-darkbg-color) -1px 0px;
+  margin: 10px 0;
+}
+
+.section-pro-project-btns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+
+.section-btn-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 20vw;
+  height: 25vh;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 7px black;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.section-btn-pro:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 15px 6px var(--typo-darkbg-color);
+}
+
+.section-workshop-hackathon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.section-btn-workshop-hackathon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 25vh;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 7px black;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.section-btn-workshop-hackathon:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 15px 6px var(--typo-darkbg-color);
+}
+
+.title-project-workshop-hackathon {
+  color: var(--secondary-color);
+  font-size: 35px;
+  text-shadow: var(--typo-darkbg-color) -1px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 932px) {
+  .title-pro-home {
+    font-size: 17px;
+  }
+
+  .section-pro-project-btns {
+    width: 80%;
+    gap: 40px;
+  }
+
+  .section-btn-pro {
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section-workshop-btns {
+    width: 100%;
+  }
+
+  .section-btn-workshop {
+    width: 60%;
+  }
+
+  .title-project-pro-home {
+    font-size: 20px;
+  }
+
+  .title-site-pro {
+    font-size: 30px;
+  }
+}

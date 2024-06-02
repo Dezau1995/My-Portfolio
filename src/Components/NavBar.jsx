@@ -1,10 +1,18 @@
 import { MdOutlineMail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import ModalWorkshop from "../Components/ModalWorkshop";
 import "./NavBar.css";
 
 function NavBar() {
   const navigate = useNavigate();
+  const [openModalWorkshop, setOpenModalWorkshop] = useState(false);
+
+  const handleModalWorkshop = () => {
+    setOpenModalWorkshop(true);
+    document.body.classList.add("active");
+  };
 
   return (
     <div>
@@ -19,12 +27,11 @@ function NavBar() {
         </button>
         <button
           className="btn-navigation"
-          onClick={() => {
-            navigate("/pro-project");
-          }}
+          onClick={handleModalWorkshop}
         >
           PRO PROJECT
         </button>
+        {openModalWorkshop && <ModalWorkshop closeModalWorkshop={setOpenModalWorkshop}/>}
         <button
           className="btn-navigation"
           onClick={() => {

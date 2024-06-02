@@ -1,18 +1,20 @@
-import lrw_home from "../assets/image/picture-lrw/LRW-Home.png";
-import lrw_sidebar from "../assets/image/picture-lrw/LRW-SideBar.png";
-import lrw_caroussel from "../assets/image/picture-lrw/LRW-Caroussel.png";
-import lrw_semainierheader from "../assets/image/picture-lrw/LRW-Semainier-Header.png";
-import lrw_semainierbody from "../assets/image/picture-lrw/LRW-Semainier-body.png";
-import lrw_recipeheader from "../assets/image/picture-lrw/LRW-Recipe-Header.png";
-import lrw_recipebody from "../assets/image/picture-lrw/LRW-recipe-body.png";
-import lrw_recipecomments from "../assets/image/picture-lrw/LRW-recipe-comments.png";
+import ff_home from "../assets/image/picture-ff/ff-home-header.png";
+import ff_search_bar from "../assets/image/picture-ff/ff-search-bar.png";
+import ff_slider from "../assets/image/picture-ff/ff-home-slider.png";
+import ff_categories from "../assets/image/picture-ff/ff-categories.png";
+import ff_film_template from "../assets/image/picture-ff/ff-film-template.png";
+import ff_trailer from "../assets/image/picture-ff/ff-trailer.png";
+import ff_film_synopsis from "../assets/image/picture-ff/ff-film-synopsis.png";
+import ff_forum_home from "../assets/image/picture-ff/ff-forumhome.png";
+import ff_forum_film from "../assets/image/picture-ff/ff-forum-film.png";
+import ff_forum_comments from "../assets/image/picture-ff/ff-forum-comments.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "./Swipers.css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
-function SwiperP1() {
+function SwiperP2() {
   return (
     <div className="list-swiper">
       <Swiper
@@ -32,61 +34,78 @@ function SwiperP1() {
         className="mySwiper"
       >
         <SwiperSlide>
+          {" "}
           <img
-            src={lrw_home}
-            alt="picture-les-recettes-wild"
+            src={ff_home}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <img
-            src={lrw_sidebar}
-            alt="picture-les-recettes-wild"
+            src={ff_search_bar}
+            alt="picture-film-fusion"
+            className="picture-slider-swiper"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={ff_slider}
+            alt="picture-film-fusion"
+            className="picture-slider-swiper"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={ff_categories}
+            alt="picture-film-fusion"
+            className="picture-slider-swiper"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={ff_film_template}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <img
-            src={lrw_caroussel}
-            alt="picture-les-recettes-wild"
+            src={ff_trailer}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <img
-            src={lrw_semainierheader}
-            alt="picture-les-recettes-wild"
+            src={ff_film_synopsis}
+            alt="picture-film-fusion"
+            className="picture-slider-swiper"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <img
+            src={ff_forum_home}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={lrw_semainierbody}
-            alt="picture-les-recettes-wild"
+            src={ff_forum_film}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
         <SwiperSlide>
+          {" "}
           <img
-            src={lrw_recipeheader}
-            alt="picture-les-recettes-wild"
-            className="picture-slider-swiper"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={lrw_recipebody}
-            alt="picture-les-recettes-wild"
-            className="picture-slider-swiper"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={lrw_recipecomments}
-            alt="picture-les-recettes-wild"
+            src={ff_forum_comments}
+            alt="picture-film-fusion"
             className="picture-slider-swiper"
           />
         </SwiperSlide>
@@ -95,4 +114,4 @@ function SwiperP1() {
   );
 }
 
-export default SwiperP1;
+export default SwiperP2;
