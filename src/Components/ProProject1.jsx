@@ -1,7 +1,7 @@
 import "./ProProject.css";
 import whireframe_P1 from "../assets/image/picture-lrw/whireframe-lesrecetteswild.png";
 import maquette_P1 from "../assets/image/picture-lrw/maquette-lesrecetteswild.png";
-import FooterProject from "./FooterProject";
+import Footer from "./Footer";
 import SliderProject1 from "./SliderProject1";
 import { motion, useScroll, useSpring } from "framer-motion";
 
@@ -65,7 +65,7 @@ function ProProject1() {
         </div>
       </section>
       <SliderProject1 />
-      <FooterProject />
+      <Footer />
     </section>
   );
 }

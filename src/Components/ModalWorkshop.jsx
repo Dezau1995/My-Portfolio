@@ -5,7 +5,6 @@ function ModalWorkshop({ closeModalWorkshop }) {
   const navigate = useNavigate();
   const handleModalWorkshop = () => {
     closeModalWorkshop(false);
-    document.body.classList.remove("active");
   };
 
   return (
