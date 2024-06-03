@@ -1,5 +1,5 @@
 import "./ProProject.css";
-import FooterProject from "./FooterProject";
+import Footer from "./Footer";
 import filmFusion_whireframe from "../assets/image/picture-ff/FilmFusion-Whireframe.png";
 import filmFusion_Models from "../assets/image/picture-ff/FilmFusion-Models.png";
 import logo_desktop from "../assets/image/picture-ff/Logo-Desktop.svg";
@@ -74,7 +74,7 @@ function ProProject2() {
         </div>
       </section>
       <SliderProject2 />
-      <FooterProject />
+      <Footer />
     </section>
   );
 }

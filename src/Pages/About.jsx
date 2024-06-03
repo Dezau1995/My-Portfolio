@@ -92,32 +92,6 @@ function About() {
           </div>
         </section>
       </div>
-      <section className="section-about-more">
-        <button
-          className="btn-more"
-          onClick={() => {
-            navigate("/pro-project");
-          }}
-        >
-          PRO PROJECT
-        </button>
-        <button
-          className="btn-more"
-          onClick={() => {
-            navigate("/personnal-project");
-          }}
-        >
-          PERSONNAL PROJECT
-        </button>
-        <button
-          className="btn-more"
-          onClick={() => {
-            navigate("/contact");
-          }}
-        >
-          CONTACT
-        </button>
-      </section>
       <Footer />
     </div>
   );

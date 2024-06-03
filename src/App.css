@@ -120,7 +120,3 @@ body {
   top: 15px;
   cursor: pointer;
 }
-
-.active {
-  overflow-y: hidden;
-}

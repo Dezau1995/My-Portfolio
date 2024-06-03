@@ -11,7 +11,6 @@ function NavBar() {
 
   const handleModalWorkshop = () => {
     setOpenModalWorkshop(true);
-    document.body.classList.add("active");
   };
 
   return (
