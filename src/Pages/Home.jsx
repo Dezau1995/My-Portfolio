@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import "./Home.css";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
           full-stack developer
         </p>
       </section>
+      <Footer />
     </div>
   );
 }

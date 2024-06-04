@@ -28,29 +28,37 @@ function Hackathon1() {
           <section className="section-introduction">
             <h2 className="title-introduction">INTRODUCTION</h2>
             <p className="paragraph-project">
-              I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF
-              TRAINING AS A WEB DEVELOPMENT STUDENT.
+              LET ME INTRODUCE TO MY FIRST HACKATHON AFTER A TWO MOUNTH OF
+              TRAINING AS A WEB DEVELOPMENT STUDENT, DEVELOPED IN 36 HOURS BY 5
+              PEOPLE: COLINE GROSSO, MAXIME MAUFRONT, YANN LAHALLEC, RYADH YOLDI
+              AND MYSELF.
               <br />
               <br />
-              THIS PROJECT WAS DEVELOPED IN 2 WEEKS BY 3 PEOPLE: EMMANUELLE
-              CURIANT, MAXIME MAUFRONT AND MYSELF.
+              THE THEME OF THE HACKATHON WAS "DECONNEXION AND NATURE", THE
+              OBJECTIF WAS TO BUILD A WEBSITE OR APPLICATION BASED ON ANY IDEA
+              WE CAN HAVE AROUND THE SUBJECT.
               <br />
               <br />
-              THE OBJECTIVE OF THE PROJECT WAS TO DEVELOP TECHNICAL SKILLS ON
-              HTML, CSS AND THE BASICS OF JAVASCRIPT.
+              WE WANT TO CREATE SOMETHING FUNNY AND ON A SUBJECT WE USUALLY HAVE
+              FUN ON IT, BUT WITH DETERMINATION. PROVE THAT WE CAN BUILD A
+              SERIOUS PROJECT.
             </p>
           </section>
           <section className="section-description-pro">
             <h2 className="title-description-pro-project">DESCRIPTION</h2>
             <p className="paragraph-project">
-              WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (THE
-              PEOPLE AT THE WILD CODE SCHOOL) TO PREPARE THEIR LUNCH MORE OFTEN.
+              WE HAD THE IDEA OF MAKING A APPLICATION BASED ON SOMETHING CALLED
+              IN FRENCH "YOGA DU RIRE": "LAUGHT YOGA". THE "YOGA DU RIRE" REDUCE
+              STRESS, STRENGTHEN THE IMMUNE SYSTEM AND IMPROVED THE MOOD.
               <br />
               <br />
-              BECAUSE OF LACK OF IDEA, TIME AND DESIRE.
+              WE WANT TO PROMOTE MENTAL AND PHYSICAL WELL-BEING SO WE CREATED
+              THIS APPLICATION TO ALLOW USERS TO HAVE EASIESTLY ACCES AND MAKE
+              IT MORE FLEXIBLE FOR DAILY PRACTICE.
               <br />
               <br />
-              HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.
+              LAUGHT IS OFTEN NEGLECT EVERYDAY, WITH THIS APPLICATION WE OFFERT
+              A SIMPLE WAY TO INTEGRATE IT IN DAILY ROUTING.
             </p>
           </section>
         </section>

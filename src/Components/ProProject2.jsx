@@ -29,8 +29,8 @@ function ProProject2() {
         <section className="section-introduction">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
-            I PRESENT TO YOU MY SECOND WEBSITE PROJECT AFTER TWO MONTH OF
-            TRAINING AS A WEB DEVELOPMENT STUDENT.
+            HERE MY SECOND WEBSITE PROJECT AFTER TWO MONTH OF TRAINING AS A WEB
+            DEVELOPMENT STUDENT.
             <br />
             <br />
             THIS PROJECT WAS DEVELOPED IN 4 WEEKS BY 3 PEOPLE: MICKAEL

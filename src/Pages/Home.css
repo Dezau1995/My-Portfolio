@@ -97,25 +97,6 @@
     font-size: 18px;
     text-align: center;
   }
-
-  .btns-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .link-btn {
-    font-size: 23px;
-  }
-
-  .send-email-btn {
-    height: 35px;
-  }
-
-  .btn-email {
-    font-size: 25px;
-  }
 }
 
 @media (min-width: 750px) and (max-width: 1200px) {

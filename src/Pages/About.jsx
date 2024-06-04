@@ -49,11 +49,15 @@ function About() {
           <div className="profile-container">
             <h2 className="title-infos">FUN FACTS</h2>
             <p>
-              I’D LIKE TO BE TATTOOED FROM HEAD TO TOE.
+              SOON FULL TATOOED I HOPE TO BECOME FULLSTACK WEB DEVELOPER BEFORE
+              ! SERIOUSLY I LOVE THE TATTOO SO MUCH THAT WHEN I WAS 19 I TRAVEL
+              IN USA FOR 2 MONTH ALONE. I FIND A SHOP THAT CAN TAKE ME AS A
+              APPRENTICE, SO I STARTED TO LEARN TATTOO AND PRACTICE ON MYSELF.
               <br />
               <br />
-              I’M A HUGE FAN OF SHARK, I HAVE ALREADY SWIN WITH SHARK AND ONCE
-              WITH A WHITE SHARK (IN A CAGE OF COURSE).
+              I’M A HUGE FAN OF SHARK ! I KNOW I'M WEIRD BUT I FOUND THEM
+              AMAZING AND MAJESTIOUS. I HAVE ALREADY SWIN WITH GREY SHARK IN HAWAII AND ONCE
+              WITH A BIG WHITE SHARK IN SOUTH AFRICA (ALWAYS IN A CAGE OF COURSE). IT'S WAS UNBELIEVABLE !
             </p>
           </div>
         </section>
@@ -73,8 +77,8 @@ function About() {
               ACQUIRED EXPERIENCE FOR THE DEVELOPMENT OF DYNAMIC USER INTERFACES
               WITH REACT.JS.
               <br />
-              <br />I MASTER THE NODE.JS AND EXPRESS.JS FRAMEWORKS AND I HAVE
-              SQL SKILLS.
+              <br />I AM PROFICIENT IN THE NODE.JS AND EXPRESS.JS FRAMEWORKS AND
+              POSSESS SQL SKILLS.
             </p>
           </section>
         </div>

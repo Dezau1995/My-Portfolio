@@ -9,6 +9,7 @@ import PersoProjectHome from "./Pages/PersoProjectHome.jsx";
 import Contact from "./Pages/Contact.jsx";
 import ProProject2 from "./Components/ProProject2.jsx";
 import Hackathon1 from "./Pages/Hackathon1.jsx";
+import Workshop from "./Components/Workshop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/hackathon-1",
         element: <Hackathon1 />,
+      },
+      {
+        path: "/workshop-1",
+        element: <Workshop />,
       },
       {
         path: "/personnal-project",

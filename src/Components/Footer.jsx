@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <footer className="display-btn-close">
-      <p>
+      <p className="footer">
       © Copyright - Created by Dezaudubendo Aka Aude Sedillo 🦈
       </p>
     </footer>

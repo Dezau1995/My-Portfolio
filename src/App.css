@@ -123,3 +123,7 @@ body {
   width: 70px;
   cursor: pointer;
 }
+
+.active{
+  overflow: hidden;
+}
