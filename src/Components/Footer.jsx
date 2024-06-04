@@ -1,18 +1,11 @@
 import "./Footer.css";
-import { useNavigate } from "react-router-dom";
 
 function Footer() {
-  const navigate = useNavigate();
 
   return (
     <footer className="display-btn-close">
-      <p
-        className="btn-close"
-        onClick={() => {
-          navigate("/");
-        }}
-      >
-        CLOSE
+      <p>
+      © Copyright - Created by Dezaudubendo Aka Aude Sedillo 🦈
       </p>
     </footer>
   );
