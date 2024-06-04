@@ -1,7 +1,6 @@
 .btns-nav {
   display: flex;
   flex-direction: row;
-  margin: 15px 0;
 }
 
 .btn-navigation {

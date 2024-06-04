@@ -1,4 +1,3 @@
-import NavBar from "../Components/NavBar";
 import "./Home.css";
 
 function Home() {
@@ -17,7 +16,6 @@ function Home() {
           full-stack developer
         </p>
       </section>
-      <NavBar />
     </div>
   );
 }
