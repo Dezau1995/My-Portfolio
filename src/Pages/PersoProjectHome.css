@@ -13,3 +13,12 @@
   font-size: 100px;
   color: var(--typo-darkbg-color);
 }
+
+@media (min-width: 320px) and (max-width: 750px) {
+  .wip-header {
+    height: 60vh;
+    font-size: 60px;
+    text-align: center;
+  }
+}
+

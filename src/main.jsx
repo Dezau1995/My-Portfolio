@@ -8,7 +8,7 @@ import ProProject1 from "./Components/ProProject1.jsx";
 import PersoProjectHome from "./Pages/PersoProjectHome.jsx";
 import Contact from "./Pages/Contact.jsx";
 import ProProject2 from "./Components/ProProject2.jsx";
-// import './index.css';
+import Hackathon1 from "./Pages/Hackathon1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/pro-project-2",
         element: <ProProject2 />,
+      },
+      {
+        path: "/hackathon-1",
+        element: <Hackathon1 />,
       },
       {
         path: "/personnal-project",

@@ -1,6 +1,6 @@
 :root {
   --main-color: #252422;
-  --typo-darkbg-color: #EB5E28;
+  --typo-darkbg-color: #eb5e28;
   --secondary-color: #ccc5b9;
   --secondary-block-color: #403d39;
   --third-color: #fffcf2;
@@ -92,8 +92,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  /* font: inherit; */
-  /* vertical-align: baseline; */
+  letter-spacing: 1px;
 }
 
 body {
@@ -113,10 +112,14 @@ body {
   z-index: 9999;
 }
 
-.logo-portfolio{
-  position: absolute;
+.display-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.logo-portfolio {
   width: 70px;
-  left: 15px;
-  top: 15px;
   cursor: pointer;
 }

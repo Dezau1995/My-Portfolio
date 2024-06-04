@@ -6,7 +6,8 @@ function App() {
   const navigate = useNavigate();
   return (
     <div>
-       <img
+      <section className="display-logo">
+        <img
           src={logo}
           alt="logo"
           className="logo-portfolio"
@@ -15,6 +16,7 @@ function App() {
             navigate("/");
           }}
         />
+      </section>
       <Outlet />
     </div>
   );
