@@ -4,7 +4,6 @@ import image_one from "../assets/image/IMG_3371.jpg";
 import image_two from "../assets/image/IMG_3576 2.jpg";
 
 import { motion, useScroll, useSpring } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 
 function About() {
   const { scrollYProgress } = useScroll();
@@ -14,15 +13,13 @@ function About() {
     restDelta: 0.001,
   });
 
-  const navigate = useNavigate();
-
   return (
     <div className="body-about">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className="header">
-      <section className="section-header-about">
-        <h1 className="header-about">A LITTLE FEW THINGS ABOUT ME</h1>
-      </section>
+        <section className="section-header-about">
+          <h1 className="header-about">A LITTLE FEW THINGS ABOUT ME</h1>
+        </section>
       </div>
       <section className="section-image-profile">
         <img src={image_one} alt="image-profile" className="image-profile" />
@@ -30,14 +27,26 @@ function About() {
       </section>
       <section className="section-boxes-information">
         <section className="section-infos">
-          <div className="who-container">
+          <div className="profile-container">
             <h2 className="title-infos">WHO AM I ?</h2>
             <p>
               I’M 28, I’M FROM CAEN (IN NORMANDY) BUT I LIVE IN PARIS SINCE I'M
               9 YEARS OLD.
+              <br />
+              <br />
+              I'VE STUDIED ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
+              CONTINUED MY STUDIES IN GRAPHIC DESIGN, BUT I STARTED WORKING AS A
+              SALESWOMAN. SINCE THEN I WORKED IN DIFFERENT SHOP AS A SALER, THEN
+              I EVOLVED AS AN ASSISTANT MANAGER.
+              <br />
+              <br />
+              AFTER A FEW YEARS IN STORES, I DECIDED TO SEEK MY WAY AND DO A
+              SKILLS ASSESSMENT. I QUICKLY FOUND THE PATH TO WEB DEVELOPMENT,
+              THEN DECIDED TO START A PROFESSIONAL FORMATION TO BECOME ONE. (I'M
+              STILL IN THIS BOOTCAMP)
             </p>
           </div>
-          <div className="fun-facts-container">
+          <div className="profile-container">
             <h2 className="title-infos">FUN FACTS</h2>
             <p>
               I’D LIKE TO BE TATTOOED FROM HEAD TO TOE.
@@ -52,19 +61,20 @@ function About() {
           <section className="section-description-about">
             <h2 className="title-description-about">DESCRIPTION</h2>
             <p>
-              I'VE STUDIED ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
-              CONTINUED MY STUDIES IN GRAPHIC DESIGN, BUT I STARTED WORKING AS A
-              SALESWOMAN. SINCE THEN I WORKED IN DIFFERENT SHOP AS A SALER, THEN
-              I EVOLVED AS AN ASSISTANT MANAGER.
+              I CHOOSED TO LEARN JAVASCRIPT IN FIRST PROGRAMMING LANGUAGE BUT
+              ALL WEB & MOBILE TECHNOLOGIES INTEREST ME.
               <br />
+              <br />I DAILY USE VISUAL STUDIO CODE TO CODE, I ALSO USE FIGMA ON
+              EVERY PROJECT TO CREATE THE DESIGN CONCEPTION OF WEBSITE OR
+              APPLICATION. I HAVE TO USE MIRO AND TRELLO TO PUT INTO PRACTICE
+              AGILES METHODOLOGIES, I ESPECIALLY LEARN THE SCRUM METHODE.
               <br />
-              AFTER A FEW YEARS IN STORES, I DECIDED TO SEEK MY WAY AND DO A
-              SKILLS ASSESSMENT. I QUICKLY FOUND THE PATH TO WEB DEVELOPMENT,
-              THEN DECIDED TO START A PROFESSIONAL FORMATION TO BECOME ONE. (I'M
-              STILL IN THIS BOOTCAMP)
+              <br />I CODE WITH THE PROGRAMMATION LANGUAGE JAVASCRIPT, I
+              ACQUIRED EXPERIENCE FOR THE DEVELOPMENT OF DYNAMIC USER INTERFACES
+              WITH REACT.JS.
               <br />
-              <br />I CHOOSED TO LEARN JAVASCRIPT IN FIRST PROGRAMMING LANGUAGE
-              BUT ALL WEB & MOBILE TECHNOLOGIES INTEREST ME.
+              <br />I MASTER THE NODE.JS AND EXPRESS.JS FRAMEWORKS AND I HAVE
+              SQL SKILLS.
             </p>
           </section>
         </div>

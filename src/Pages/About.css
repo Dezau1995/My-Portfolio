@@ -52,34 +52,29 @@
 
 .section-infos {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
-  height: 30vh;
+  gap: 20px;
 }
 
-.who-container {
-  color: var(--secondary-color);
+.profile-container {
+  color: var(--third-color);
   border-radius: 10px;
   font-size: 16px;
-  width: 30%;
-  padding: 10px 15px;
-}
-
-.fun-facts-container {
-  color: var(--secondary-color);
-  border-radius: 10px;
-  font-size: 16px;
-  width: 30%;
-  padding: 10px 15px;
+  height: max-content;
+  width: 80%;
+  margin: 20px;
+  /* padding: 15px; */
 }
 
 .title-infos {
   font-size: 25px;
-  text-align: center;
-  color: var(--secondary-block-color);
-  text-shadow: 0px 0px 7px var(--third-color);
-  padding-bottom: 5px;
+  color: var(--secondary-color);
+  text-shadow: 0px 5px 5px black;
+  width: max-content;
+  margin: 15px 0;
+  border-bottom: 0.5px solid;
 }
 
 .description-about {
@@ -163,14 +158,10 @@
   z-index: 9999;
 }
 
-@media (min-width: 320px) and (max-width: 932px) {
+@media (min-width: 320px) and (max-width: 750px) {
   .header-about {
     font-size: 20px;
     padding: 5px;
-  }
-
-  .section-header-about {
-    margin-top: 55px;
   }
 
   .section-image-profile {
@@ -181,23 +172,10 @@
     width: 170px;
   }
 
-  .section-infos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 40vh;
-    width: 100vw;
-    gap: 20px;
-  }
-
-  .who-container {
-    width: 60vw;
+  .profile-container {
+    width: 70vw;
     font-size: 12px;
-  }
-
-  .fun-facts-container {
-    width: 60vw;
-    font-size: 12px;
+    margin: 0;
   }
 
   .title-infos {
@@ -214,6 +192,6 @@
   }
 
   .section-web-skills {
-    width: 85%;
+    width: max-content;
   }
 }

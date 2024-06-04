@@ -24,6 +24,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
                 WELCOME ON MY PROJECTS, COME HAVE A LOOK
               </h1>
             </section>
+            <section className="display-modal-btn">
             <section className="section-pro-project-btns">
               <section
                 onClick={() => navigate("/pro-project-1")}
@@ -55,10 +56,11 @@ function ModalWorkshop({ closeModalWorkshop }) {
                   Rick & Morty
                 </h1>
               </section>
-              <section className="section-btn-workshop-hackathon">
+              <section onClick={() => navigate("/hackathon-1")} className="section-btn-workshop-hackathon">
                 <h2>Hackathon</h2>
                 <h1 className="title-project-workshop-hackathon">Rigol'App</h1>
               </section>
+            </section>
             </section>
           </div>
         </section>
