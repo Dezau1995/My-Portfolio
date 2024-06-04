@@ -62,11 +62,31 @@
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
+  .display-nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
   .btns-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 8px 0;
+  }
+
+  .link-btn {
+    display: none;
+    /* font-size: 17px; */
+  }
+
+  .send-email-btn {
+    /* height: 30px; */
+    display: none;
+  }
+
+  .btn-email {
+    font-size: 2px;
   }
 }
-
-

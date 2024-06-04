@@ -6,6 +6,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
   const handleModalWorkshop = (navigateRoute) => {
     closeModalWorkshop(false);
     navigate(navigateRoute);
+    document.body.classList.remove("active");
   };
 
   return (
@@ -51,7 +52,10 @@ function ModalWorkshop({ closeModalWorkshop }) {
                 </section>
               </section>
               <section className="section-workshop-hackathon">
-                <section className="section-btn-workshop-hackathon">
+                <section
+                  onClick={() => handleModalWorkshop("/workshop-1")}
+                  className="section-btn-workshop-hackathon"
+                >
                   <h2>Workshop</h2>
                   <h1 className="title-project-workshop-hackathon">
                     Rick & Morty

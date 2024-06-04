@@ -1,11 +1,15 @@
-import "./ProProject.css";
+// import dataPro from "../data/proproject"
 import whireframe_P1 from "../assets/image/picture-lrw/whireframe-lesrecetteswild.png";
 import maquette_P1 from "../assets/image/picture-lrw/maquette-lesrecetteswild.png";
 import Footer from "./Footer";
 import SliderProject1 from "./SliderProject1";
 import { motion, useScroll, useSpring } from "framer-motion";
+import "./ProProject.css";
 
-function ProProject1() {
+function Workshop() {
+  // const data = dataPro;
+  // console.log(data)
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -18,39 +22,20 @@ function ProProject1() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          PROJECT 1 :
+          WORKSHOP :
           <br />
-          LES RECETTES WILD
+          RICK & MORTY
         </h1>
       </section>
       <section className="section-presentation">
         <section className="section-introduction">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
-            I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF TRAINING
-            AS A WEB DEVELOPMENT STUDENT.
+            IT'S WAS A WORKSHOP TO PRACTICE FETCHING API, USE MAP AND FILTER
+            METHODS.
             <br />
-            <br />
-            THIS PROJECT WAS DEVELOPED IN 2 WEEKS BY 3 PEOPLE: EMMANUELLE
-            CURIANT, MAXIME MAUFRONT AND MYSELF.
-            <br />
-            <br />
-            THE OBJECTIVE OF THE PROJECT WAS TO DEVELOP TECHNICAL SKILLS ON
-            HTML, CSS AND THE BASICS OF JAVASCRIPT.
-          </p>
-        </section>
-        <section className="section-description-pro">
-          <h2 className="title-description-pro-project">DESCRIPTION</h2>
-          <p className="paragraph-project">
-            WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (STUDENT
-            AND PEOPLE AT THE WILD CODE SCHOOL) TO PREPARE THEIR LUNCH MORE
-            OFTEN.
-            <br />
-            <br />
-            BECAUSE OF LACK OF IDEA, TIME AND DESIRE.
-            <br />
-            <br />
-            HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.
+            <br />I REDESIGN ALL THE CSS SECTION TO MAKE SOMETHING COOL AND LOOK
+            LIKE THE UNIVERSE OF THE TV SHOW TO DEVELOP MY CSS SKILLS.
           </p>
         </section>
       </section>
@@ -71,4 +56,4 @@ function ProProject1() {
   );
 }
 
-export default ProProject1;
+export default Workshop;

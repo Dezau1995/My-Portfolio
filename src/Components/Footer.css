@@ -2,27 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.btn-close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  width: 45px;
-  height: 45px;
-  font-size: 13px;
-  border-radius: 50%;
-  padding: 5px;
-  cursor: pointer;
   margin: 10px 0;
-  transition: all 0.5s ease-in-out;
 }
 
-.btn-close:hover {
-  color: var(--typo-darkbg-color);
-  border: 1px solid var(--typo-darkbg-color);
-  font-size: 15px;
-  transform: scale(1.2);
+.footer {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  font-size: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    height: 16vh;
+    font-size: 8px;
+  }
 }
