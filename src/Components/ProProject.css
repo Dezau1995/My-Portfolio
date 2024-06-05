@@ -23,20 +23,19 @@
 .section-presentation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  width: 80vw;
   margin: 30px 0;
-  gap: 20px;
 }
 
-.section-introduction {
+.section-introduction-description {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   height: max-content;
   color: var(--secondary-color);
-  padding: 20px;
+  font-size: 20px;
   border-radius: 10px;
-  gap: 20px;
 }
 
 .title-introduction {
@@ -44,19 +43,6 @@
   font-size: 30px;
   color: var(--typo-darkbg-color);
   text-shadow: 0px 0px 5px black;
-}
-
-.section-description-pro {
-  display: flex;
-  flex-direction: column;
-  color: var(--secondary-color);
-  width: 30%;
-  height: max-content;
-  padding: 20px;
-  font-size: 20px;
-  margin: 0 20px;
-  gap: 20px;
-  border-radius: 10px;
 }
 
 .title-description-pro-project {
@@ -81,6 +67,7 @@
 
 .paragraph-project {
   font-size: 16px;
+  margin: 10px 0;
 }
 
 .title-section-whireframe {
@@ -161,6 +148,11 @@
 
   .title-section-whireframe {
     font-size: 25px;
+  }
+
+  .paragraph-project{
+    font-size: 12px;
+    margin: 5px 0;
   }
 
   .display-image {

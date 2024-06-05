@@ -20,28 +20,28 @@ function ProProject2() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          PROJECT 2 :
+          PROJECT :
           <br />
           FILM FUSION
         </h1>
       </section>
       <section className="section-presentation">
-        <section className="section-introduction">
+        <section className="section-introduction-description">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
             HERE MY SECOND WEBSITE PROJECT AFTER TWO MONTH OF TRAINING AS A WEB
             DEVELOPMENT STUDENT.
-            <br />
-            <br />
+            </p>
+            <p className="paragraph-project">
             THIS PROJECT WAS DEVELOPED IN 4 WEEKS BY 3 PEOPLE: MICKAEL
             BEAUGRAND, RYADH YOLDI AND MYSELF.
-            <br />
-            <br />
+            </p>
+            <p className="paragraph-project">
             THE OBJECTIVE WAS TO BUILD A WEBSITE USING THE FOLLOWING
             TECHNOLOGIES : HTML, CSS, REACT JS, AND FETCHING DATA FROM API.
           </p>
         </section>
-        <section className="section-description-pro">
+        <section className="section-introduction-description">
           <h2 className="title-description-pro-project">DESCRIPTION</h2>
           <p className="paragraph-project">
             WE DID A WEBSITE ABOUT MOVIES AND DECIDED TO STAND OUT BY SETTING UP

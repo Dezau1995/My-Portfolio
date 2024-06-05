@@ -29,17 +29,16 @@ function About() {
         <section className="section-infos">
           <div className="profile-container">
             <h2 className="title-infos">WHO AM I ?</h2>
-            <p>
-              I’M 28, I’M FROM CAEN (IN NORMANDY) BUT I LIVE IN PARIS SINCE I'M
-              9 YEARS OLD.
-              <br />
-              <br />
+            <p className="paragraph-about">
+              I’M 28, I’M FROM CAEN BUT I LIVE IN PARIS SINCE I'M 9 YEARS OLD.
+            </p>
+            <p className="paragraph-about">
               I'VE STUDIED ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
               CONTINUED MY STUDIES IN GRAPHIC DESIGN, BUT I STARTED WORKING AS A
               SALESWOMAN. SINCE THEN I WORKED IN DIFFERENT SHOP AS A SALER, THEN
               I EVOLVED AS AN ASSISTANT MANAGER.
-              <br />
-              <br />
+            </p>
+            <p className="paragraph-about">
               AFTER A FEW YEARS IN STORES, I DECIDED TO SEEK MY WAY AND DO A
               SKILLS ASSESSMENT. I QUICKLY FOUND THE PATH TO WEB DEVELOPMENT,
               THEN DECIDED TO START A PROFESSIONAL FORMATION TO BECOME ONE. (I'M
@@ -48,36 +47,40 @@ function About() {
           </div>
           <div className="profile-container">
             <h2 className="title-infos">FUN FACTS</h2>
-            <p>
-              SOON FULL TATOOED I HOPE TO BECOME FULLSTACK WEB DEVELOPER BEFORE
-              ! SERIOUSLY I LOVE THE TATTOO SO MUCH THAT WHEN I WAS 19 I TRAVEL
-              IN USA FOR 2 MONTH ALONE. I FIND A SHOP THAT CAN TAKE ME AS A
-              APPRENTICE, SO I STARTED TO LEARN TATTOO AND PRACTICE ON MYSELF.
-              <br />
-              <br />
+            <p className="paragraph-about">
+              AS I'M GOING TO BE FULLY TATTOOED SOON, I WANT TO BE A FULSTACK
+              WEB DEVELOPER BEFOREHAND ! I'M SO PASSIONATE ABOUT TATTOO THAT I
+              WENT TO MIAMI BY MYSELF WHEN I WAS 19 YO TO DEVELOP MY SKILLS AS A
+              TATTOO ARTIST.
+            </p>
+            <p className="paragraph-about">
               I’M A HUGE FAN OF SHARK ! I KNOW I'M WEIRD BUT I FOUND THEM
-              AMAZING AND MAJESTIOUS. I HAVE ALREADY SWIN WITH GREY SHARK IN HAWAII AND ONCE
-              WITH A BIG WHITE SHARK IN SOUTH AFRICA (ALWAYS IN A CAGE OF COURSE). IT'S WAS UNBELIEVABLE !
+              WONDERFULL. I HAVE ALREADY SWIN WITH GREY SHARK IN HAWAII AND ONCE
+              WITH A BIG WHITE SHARK IN SOUTH AFRICA (ALWAYS IN A CAGE OF
+              COURSE). IT'S WAS AMAZING !
             </p>
           </div>
         </section>
         <div className="description-about">
           <section className="section-description-about">
             <h2 className="title-description-about">DESCRIPTION</h2>
-            <p>
+            <p className="paragraph-about">
               I CHOOSED TO LEARN JAVASCRIPT IN FIRST PROGRAMMING LANGUAGE BUT
               ALL WEB & MOBILE TECHNOLOGIES INTEREST ME.
-              <br />
-              <br />I DAILY USE VISUAL STUDIO CODE TO CODE, I ALSO USE FIGMA ON
-              EVERY PROJECT TO CREATE THE DESIGN CONCEPTION OF WEBSITE OR
-              APPLICATION. I HAVE TO USE MIRO AND TRELLO TO PUT INTO PRACTICE
-              AGILES METHODOLOGIES, I ESPECIALLY LEARN THE SCRUM METHODE.
-              <br />
-              <br />I CODE WITH THE PROGRAMMATION LANGUAGE JAVASCRIPT, I
-              ACQUIRED EXPERIENCE FOR THE DEVELOPMENT OF DYNAMIC USER INTERFACES
-              WITH REACT.JS.
-              <br />
-              <br />I AM PROFICIENT IN THE NODE.JS AND EXPRESS.JS FRAMEWORKS AND
+            </p>
+            <p className="paragraph-about">
+              I DAILY USE VISUAL STUDIO CODE TO CODE, I ALSO USE FIGMA ON EVERY
+              PROJECT TO CREATE THE DESIGN CONCEPTION OF WEBSITE OR APPLICATION.
+              I HAVE TO USE MIRO AND TRELLO TO PUT INTO PRACTICE AGILES
+              METHODOLOGIES, I ESPECIALLY LEARN THE SCRUM METHODE.
+            </p>
+            <p className="paragraph-about">
+              I CODE WITH THE PROGRAMMATION LANGUAGE JAVASCRIPT, I ACQUIRED
+              EXPERIENCE FOR THE DEVELOPMENT OF DYNAMIC USER INTERFACES WITH
+              REACT.JS.
+            </p>
+            <p className="paragraph-about">
+              I AM PROFICIENT IN THE NODE.JS AND EXPRESS.JS FRAMEWORKS AND
               POSSESS SQL SKILLS.
             </p>
           </section>

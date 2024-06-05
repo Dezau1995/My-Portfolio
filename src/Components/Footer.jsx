@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="display-btn-close">
       <p className="footer">
-      © Copyright - Created by Dezaudubendo Aka Aude Sedillo 🦈
+      © Copyright - Created by Aude Sedillo 🦈
       </p>
     </footer>
   );

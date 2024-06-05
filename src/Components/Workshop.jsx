@@ -1,4 +1,4 @@
-// import dataPro from "../data/proproject"
+import dataHackathon from "../data/hackathon.js";
 import whireframe_P1 from "../assets/image/picture-lrw/whireframe-lesrecetteswild.png";
 import maquette_P1 from "../assets/image/picture-lrw/maquette-lesrecetteswild.png";
 import Footer from "./Footer";
@@ -7,8 +7,8 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import "./ProProject.css";
 
 function Workshop() {
-  // const data = dataPro;
   // console.log(data)
+  const dataPro = dataHackathon;
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -30,20 +30,16 @@ function Workshop() {
       <section className="section-presentation">
         <section className="section-introduction">
           <h2 className="title-introduction">INTRODUCTION</h2>
-          <p className="paragraph-project">
-            IT'S WAS A WORKSHOP TO PRACTICE FETCHING API, USE MAP AND FILTER
-            METHODS.
-            <br />
-            <br />I REDESIGN ALL THE CSS SECTION TO MAKE SOMETHING COOL AND LOOK
-            LIKE THE UNIVERSE OF THE TV SHOW TO DEVELOP MY CSS SKILLS.
-          </p>
+          <p className="paragraph-project">{dataPro[0].introduction1}</p>
+          <p className="paragraph-project">{dataPro[0].introduction2}</p>
+          <p className="paragraph-project">{dataPro[0].introduction3}</p>
         </section>
       </section>
       <section className="section-whireframe-models">
         <h3 className="title-section-whireframe">WHIREFRAME & MODELS</h3>
         <div className="display-image">
           <img
-            src={whireframe_P1}
+            src={dataPro[0].pictureWhireframe}
             alt="whireframe"
             className="picture-whireframe"
           />

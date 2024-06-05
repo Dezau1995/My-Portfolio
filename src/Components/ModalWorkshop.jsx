@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
+import dataHackathon from "../data/hackathon.js";
 import "./ModalWorkshop.css";
+import { useState } from "react";
 
 function ModalWorkshop({ closeModalWorkshop }) {
   const navigate = useNavigate();
@@ -8,6 +10,8 @@ function ModalWorkshop({ closeModalWorkshop }) {
     navigate(navigateRoute);
     document.body.classList.remove("active");
   };
+
+  const [dataHacka, setDataHacka] = useState(dataHackathon);
 
   return (
     <div>
@@ -28,48 +32,49 @@ function ModalWorkshop({ closeModalWorkshop }) {
             </section>
             <section className="display-modal-btn">
               <section className="section-pro-project-btns">
-                <section
-                  onClick={() => handleModalWorkshop("/pro-project-1")}
-                  className="section-btn-pro"
-                >
-                  <h2 className="title-project-pro-home">PROJECT 1</h2>
-                  <p className="title-site-pro">
-                    LES RECETTES
-                    <br /> WILD
-                  </p>
-                </section>
-                <section
+              <section
                   onClick={() => handleModalWorkshop("/pro-project-2")}
                   className="section-btn-pro"
                 >
                   <div>
-                    <h2 className="title-project-pro-home">PROJECT 2</h2>
+                    <h2 className="title-project-pro-home">PROJECT</h2>
                     <p className="title-site-pro">
                       FILM
                       <br /> FUSION
                     </p>
                   </div>
                 </section>
+                <section
+                  onClick={() => handleModalWorkshop("/pro-project-1")}
+                  className="section-btn-pro"
+                >
+                  <h2 className="title-project-pro-home">PROJECT</h2>
+                  <p className="title-site-pro">
+                    LES RECETTES
+                    <br /> WILD
+                  </p>
+                </section>
               </section>
               <section className="section-workshop-hackathon">
-                <section
-                  onClick={() => handleModalWorkshop("/workshop-1")}
-                  className="section-btn-workshop-hackathon"
-                >
-                  <h2>Workshop</h2>
-                  <h1 className="title-project-workshop-hackathon">
-                    Rick & Morty
-                  </h1>
-                </section>
-                <section
+              <section
                   onClick={() => handleModalWorkshop("/hackathon-1")}
                   className="section-btn-workshop-hackathon"
                 >
                   <h2>Hackathon</h2>
                   <h1 className="title-project-workshop-hackathon">
-                    Rigol'App
+                    RIGOL'APP
                   </h1>
                 </section>
+                <section
+                  onClick={() => handleModalWorkshop("/workshop-1")}
+                  className="section-btn-workshop-hackathon"
+                >
+                  <h2>PROJECT</h2>
+                  <h1 className="title-project-workshop-hackathon">
+                    RICK & MORTY
+                  </h1>
+                </section>
+                
               </section>
             </section>
           </div>

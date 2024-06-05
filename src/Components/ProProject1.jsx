@@ -18,40 +18,36 @@ function ProProject1() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          PROJECT 1 :
+          PROJECT :
           <br />
           LES RECETTES WILD
         </h1>
       </section>
       <section className="section-presentation">
-        <section className="section-introduction">
+        <section className="section-introduction-description">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
             I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF TRAINING
             AS A WEB DEVELOPMENT STUDENT.
-            <br />
-            <br />
+          </p>
+          <p className="paragraph-project">
             THIS PROJECT WAS DEVELOPED IN 2 WEEKS BY 3 PEOPLE: EMMANUELLE
             CURIANT, MAXIME MAUFRONT AND MYSELF.
-            <br />
-            <br />
+          </p>
+          <p className="paragraph-project">
             THE OBJECTIVE OF THE PROJECT WAS TO DEVELOP TECHNICAL SKILLS ON
             HTML, CSS AND THE BASICS OF JAVASCRIPT.
           </p>
         </section>
-        <section className="section-description-pro">
+        <section className="section-introduction-description">
           <h2 className="title-description-pro-project">DESCRIPTION</h2>
           <p className="paragraph-project">
             WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (STUDENT
             AND PEOPLE AT THE WILD CODE SCHOOL) TO PREPARE THEIR LUNCH MORE
             OFTEN.
-            <br />
-            <br />
-            BECAUSE OF LACK OF IDEA, TIME AND DESIRE.
-            <br />
-            <br />
-            HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.
           </p>
+          <p className="paragraph-project">BECAUSE OF LACK OF IDEA, TIME AND DESIRE.</p>
+          <p className="paragraph-project">HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.</p>
         </section>
       </section>
       <section className="section-whireframe-models">
