@@ -66,7 +66,12 @@
   height: max-content;
   width: 60%;
   margin: 20px;
-  /* padding: 15px; */
+  gap: 20px;
+}
+
+.paragraph-about {
+  font-size: 16px;
+  margin: 10px 0;
 }
 
 .title-infos {
@@ -90,7 +95,7 @@
   color: var(--secondary-color);
   background-color: var(--secondary-block-color);
   border-radius: 10px;
-  width: 80%;
+  width: 70%;
   height: max-content;
   padding: 20px;
   box-shadow: 2px 1px 37px 2px rgba(0, 0, 0, 1) inset;
@@ -103,7 +108,6 @@
   margin-bottom: 5px;
   color: var(--typo-darkbg-color);
 }
-
 
 .section-web-skills {
   display: flex;
@@ -177,6 +181,15 @@
   .profile-container {
     width: 70vw;
     font-size: 12px;
+    margin: 0;
+  }
+
+  .paragraph-about {
+    font-size: 10px;
+    margin: 10px 0;
+  }
+
+  .section-infos {
     margin: 0;
   }
 

@@ -25,26 +25,26 @@ function Hackathon1() {
           </h1>
         </section>
         <section className="section-presentation">
-          <section className="section-introduction">
+          <section className="section-introduction-description">
             <h2 className="title-introduction">INTRODUCTION</h2>
             <p className="paragraph-project">
               LET ME INTRODUCE TO MY FIRST HACKATHON AFTER A TWO MOUNTH OF
               TRAINING AS A WEB DEVELOPMENT STUDENT, DEVELOPED IN 36 HOURS BY 5
-              PEOPLE: COLINE GROSSO, MAXIME MAUFRONT, YANN LAHALLEC, RYADH YOLDI
+              PEOPLE: COLINE GROSSO, MAXIME MAUFRONT, YANN LAHELLEC, RYADH YOLDI
               AND MYSELF.
-              <br />
-              <br />
+            </p>
+            <p className="paragraph-project">
               THE THEME OF THE HACKATHON WAS "DECONNEXION AND NATURE", THE
               OBJECTIF WAS TO BUILD A WEBSITE OR APPLICATION BASED ON ANY IDEA
               WE CAN HAVE AROUND THE SUBJECT.
-              <br />
-              <br />
+            </p>
+            <p className="paragraph-project">
               WE WANT TO CREATE SOMETHING FUNNY AND ON A SUBJECT WE USUALLY HAVE
               FUN ON IT, BUT WITH DETERMINATION. PROVE THAT WE CAN BUILD A
               SERIOUS PROJECT.
             </p>
           </section>
-          <section className="section-description-pro">
+          <section className="section-introduction-description">
             <h2 className="title-description-pro-project">DESCRIPTION</h2>
             <p className="paragraph-project">
               WE HAD THE IDEA OF MAKING A APPLICATION BASED ON SOMETHING CALLED
