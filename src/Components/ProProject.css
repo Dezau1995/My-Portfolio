@@ -86,12 +86,14 @@
   width: 400px;
   height: 300px;
   border-radius: 10px;
+  margin: 10px 0;
 }
 
 .picture-models {
   width: 400px;
   height: 300px;
   border-radius: 10px;
+  margin: 10px 0;
 }
 
 .section-display-logo {
@@ -130,16 +132,13 @@
     font-size: 30px;
   }
 
-  .section-introduction {
-    width: 70%;
+  .section-introduction-description {
+    width: 75%;
+    margin: 10px 0;
   }
 
   .title-introduction {
     font-size: 25px;
-  }
-
-  .section-description-pro {
-    width: 70%;
   }
 
   .title-description-pro-project {
@@ -150,7 +149,7 @@
     font-size: 25px;
   }
 
-  .paragraph-project{
+  .paragraph-project {
     font-size: 12px;
     margin: 5px 0;
   }
@@ -181,4 +180,3 @@
     width: 30%;
   }
 }
-

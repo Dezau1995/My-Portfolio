@@ -161,7 +161,7 @@
   .section-btn-pro {
     display: flex;
     justify-content: space-evenly;
-    width: max-content;
+    width: 30vw;
     height: max-content;
     padding: 15px;
   }
@@ -182,7 +182,7 @@
     font-size: 20px;
   }
   .section-btn-workshop-hackathon {
-    width: max-content;
+    width: 30vw;
     height: max-content;
     margin: 10px 0;
     padding: 10px;
@@ -208,5 +208,15 @@
   .button-close-workshop {
     top: 15px;
     right: 15px;
+  }
+
+  .section-btn-pro{
+    width: 25vw;
+    height: max-content;
+  }
+
+  .section-btn-workshop-hackathon{
+    width: 25vw;
+    height: 20vw;
   }
 }
