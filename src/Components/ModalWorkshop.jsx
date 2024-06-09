@@ -1,7 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import dataHackathon from "../data/hackathon.js";
 import "./ModalWorkshop.css";
-import { useState } from "react";
 
 function ModalWorkshop({ closeModalWorkshop }) {
   const navigate = useNavigate();
@@ -10,8 +8,6 @@ function ModalWorkshop({ closeModalWorkshop }) {
     navigate(navigateRoute);
     document.body.classList.remove("active");
   };
-
-  const [dataHacka, setDataHacka] = useState(dataHackathon);
 
   return (
     <div>
@@ -32,7 +28,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
             </section>
             <section className="display-modal-btn">
               <section className="section-pro-project-btns">
-              <section
+                <section
                   onClick={() => handleModalWorkshop("/pro-project-2")}
                   className="section-btn-pro"
                 >
@@ -56,11 +52,11 @@ function ModalWorkshop({ closeModalWorkshop }) {
                 </section>
               </section>
               <section className="section-workshop-hackathon">
-              <section
+                <section
                   onClick={() => handleModalWorkshop("/hackathon-1")}
                   className="section-btn-workshop-hackathon"
                 >
-                  <h2>Hackathon</h2>
+                  <h2>HACKATHON</h2>
                   <h1 className="title-project-workshop-hackathon">
                     RIGOL'APP
                   </h1>
@@ -74,7 +70,6 @@ function ModalWorkshop({ closeModalWorkshop }) {
                     RICK & MORTY
                   </h1>
                 </section>
-                
               </section>
             </section>
           </div>

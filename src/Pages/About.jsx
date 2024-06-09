@@ -30,7 +30,8 @@ function About() {
           <div className="profile-container">
             <h2 className="title-infos">WHO AM I ?</h2>
             <p className="paragraph-about">
-              I’M 28, I’M FROM CAEN BUT I LIVE IN PARIS SINCE I'M 9 YEARS OLD.
+              I'M A FRENCH GIRL,I’M 28 AND I’M FROM CAEN BUT I LIVE IN PARIS
+              SINCE I'M 9 YEARS OLD.
             </p>
             <p className="paragraph-about">
               I'VE STUDIED ART, I WAS IN ART PREPARATORY CLASS AND I COULD HAVE
@@ -44,11 +45,16 @@ function About() {
               THEN DECIDED TO START A PROFESSIONAL FORMATION TO BECOME ONE. (I'M
               STILL IN THIS BOOTCAMP)
             </p>
+            <p className="paragraph-about">
+              * PS : THE LOGO "DEZAU" ON MY NAVIGATION BAR COME FROM MY
+              NICKNAME. IT'S MY FIRSTNAME IN REVERSE, THE Z ALLOWS JUST A BETTER
+              PRONUNCIATION.
+            </p>
           </div>
           <div className="profile-container">
             <h2 className="title-infos">FUN FACTS</h2>
             <p className="paragraph-about">
-              AS I'M GOING TO BE FULLY TATTOOED SOON, I WANT TO BE A FULSTACK
+              AS I'M GOING TO BE FULLY TATTOOED SOON, I WANT TO BE A FULLSTACK
               WEB DEVELOPER BEFOREHAND ! I'M SO PASSIONATE ABOUT TATTOO THAT I
               WENT TO MIAMI BY MYSELF WHEN I WAS 19 YO TO DEVELOP MY SKILLS AS A
               TATTOO ARTIST.
@@ -100,7 +106,7 @@ function About() {
             </div>
             <div className="display-skills">
               <p className="subtitle-web-skills">PLATEFORMS :</p>
-              <p className="skills-dev-web">GITHUB - MySQL - FIGMA</p>
+              <p className="skills-dev-web">GIT-GITHUB - MySQL - FIGMA</p>
             </div>
             <div className="display-skills">
               <p className="subtitle-web-skills">AGILE METHODOLOGIES </p>
