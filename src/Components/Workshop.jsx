@@ -25,7 +25,7 @@ function Workshop() {
         <section className="section-introduction-description">
           <h2 className="title-introduction">INTRODUCTION</h2>
           <p className="paragraph-project">
-            I WANTED TO HIGHLIGHT THIS WORKSHOP CAUSE IT WAS USEFUL TO PRATICE
+            I WANTED TO HIGHLIGHT THIS WORKSHOP CAUSE IT WAS USEFUL TO PRACTICE
             SKILLS THAT I DIDN'T USED ON MY PROJECTS, LIKE CREATE A CONTEXT.
           </p>
           <p className="paragraph-project">
