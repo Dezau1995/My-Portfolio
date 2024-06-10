@@ -39,8 +39,8 @@ function Hackathon1() {
               ANY IDEA WE CAN HAVE AROUND THE SUBJECT.
             </p>
             <p className="paragraph-project">
-              WE WANT TO CREATE SOMETHING FUNNY AND ON A SUBJECT WE USUALLY HAVE
-              FUN ON IT. BUT WITH DETERMINATION, PROVE THAT WE CAN BUILD A
+              WE WANTED TO CREATE SOMETHING FUNNY AND ON A SUBJECT WE USUALLY HAVE
+              FUN ON IT. BUT WITH DETERMINATION, ALSO PROVE THAT WE CAN BUILD A
               SERIOUS PROJECT.
             </p>
           </section>
