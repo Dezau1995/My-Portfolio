@@ -15,7 +15,7 @@ function NavBar() {
   };
 
   return (
-    <div>
+    <section>
       <div className="btns-nav">
         <button
           className="btn-navigation"
@@ -65,7 +65,7 @@ function NavBar() {
           </Link>
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -14,7 +14,7 @@ function About() {
   });
 
   return (
-    <div className="body-about">
+    <main className="body-about">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className="header">
         <section className="section-header-about">
@@ -92,7 +92,7 @@ function About() {
           </section>
         </div>
       </section>
-      <div className="web-skills">
+      <section className="web-skills">
         <section className="section-web-skills">
           <h2 className="title-web-skills">WEB SKILLS</h2>
           <div className="display-subtitle">
@@ -114,9 +114,9 @@ function About() {
             </div>
           </div>
         </section>
-      </div>
+      </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

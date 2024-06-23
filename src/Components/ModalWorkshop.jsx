@@ -10,7 +10,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
   };
 
   return (
-    <div>
+    <>
       <section className="modal-workshop-container">
         <section className="workshop-container">
           <button
@@ -75,7 +75,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
           </div>
         </section>
       </section>
-    </div>
+    </>
   );
 }
 

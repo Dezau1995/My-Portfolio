@@ -14,7 +14,7 @@ function Hackathon1() {
   });
 
   return (
-    <div>
+    <main>
       <section className="display-pro-project-page">
         <motion.div className="progress-bar" style={{ scaleX }} />
         <section className="section-title-project">
@@ -76,7 +76,7 @@ function Hackathon1() {
         <SliderHackathon1 />
         <Footer />
       </section>
-    </div>
+    </main>
   );
 }
 

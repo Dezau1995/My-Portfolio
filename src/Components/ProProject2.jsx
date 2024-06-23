@@ -16,7 +16,7 @@ function ProProject2() {
   });
 
   return (
-    <section className="display-pro-project-page">
+    <main className="display-pro-project-page">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
@@ -75,7 +75,7 @@ function ProProject2() {
       </section>
       <SliderProject2 />
       <Footer />
-    </section>
+    </main>
   );
 }
 

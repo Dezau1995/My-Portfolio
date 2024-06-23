@@ -14,7 +14,7 @@ import { Navigation } from "swiper/modules";
 
 function SwiperWorkshop() {
   return (
-    <div className="list-swiper">
+    <section className="list-swiper">
       <Swiper
         modules={[Navigation]}
         navigation={true}
@@ -91,7 +91,7 @@ function SwiperWorkshop() {
           />
         </SwiperSlide>
       </Swiper>
-    </div>
+    </section>
   );
 }
 

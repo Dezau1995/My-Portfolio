@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="contact-display">
+    <main className="contact-display">
       <div className="section-header-contact">
       <section className="header-contact">
         <h1 className="contact-text-decoration">
@@ -42,7 +42,7 @@ function Contact() {
         </p>
       </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

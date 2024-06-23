@@ -4,10 +4,10 @@ import "./Home.css";
 function Home() {
 
   return (
-    <div className="home-display">
-      <div className="title-name">
+    <main className="home-display">
+      <section className="title-name">
         <h1>AUDE SEDILLO</h1>
-      </div>
+      </section>
       <section className="header-job">
         <h1 className="text-decoration">WEB DEVELOPER FULLSTACK</h1>
       </section>
@@ -18,7 +18,7 @@ function Home() {
         </p>
       </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -3,12 +3,12 @@ import "./PersoProjectHome.css";
 
 function PersoProjectHome() {
   return (
-    <div className="perso-project-body">
-      <div className="wip-header">
+    <main className="perso-project-body">
+      <section className="wip-header">
         <h1 className="">Work In Progress ...</h1>
-      </div>
+      </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 
