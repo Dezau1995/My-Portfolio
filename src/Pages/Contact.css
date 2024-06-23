@@ -35,11 +35,28 @@
   flex-direction: column;
   width: 90vw;
   gap: 10px;
+  .btn-send-email {
+    font-family: var(--font-family);
+    background-color: var(--third-color);
+    width: max-content;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 5%;
+    bottom: 34%;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 10px 0px black;
+    animation: move-button 0.75s ease-in-out 0s infinite normal none;
+    cursor: pointer;
+  }
+  .btn-send-email:hover {
+    color: var(--typo-darkbg-color);
+    box-shadow: 0px 0px 10px 0px var(--typo-darkbg-color);
+  }
 }
 
 .linkedin-link {
   color: var(--typo-darkbg-color);
-  /* text-decoration: none; */
   cursor: pointer;
 }
 
@@ -49,7 +66,6 @@
 
 .github-link {
   color: var(--typo-darkbg-color);
-  /* text-decoration: none; */
   cursor: pointer;
 }
 
@@ -64,15 +80,30 @@
 
   .contact-text-decoration {
     display: flex;
-    /* align-items: center; */
     font-size: 50px;
     text-shadow: var(--typo-darkbg-color) -5px -5px;
-    /* margin: 15px 15px; */
+  }
+  .section-contact-info {
+    .btn-send-email {
+      bottom: 15%;
+    }
   }
 }
 
 @media (min-width: 750px) and (max-width: 1200px) {
   .contact-text-decoration {
     font-size: 80px;
+  }
+}
+
+@keyframes move-button {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }

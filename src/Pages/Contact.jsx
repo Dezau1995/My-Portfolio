@@ -18,9 +18,10 @@ function Contact() {
       </section>
       </div>
       <section className="section-contact-info">
-        <p className="contact-info">📍Paris, Ile-de-France, France</p>
-        <p className="contact-info">📧 aude.sedillo@gmail.com</p>
-        <p className="contact-info">
+        <p>📍Paris, Ile-de-France, France</p>
+        <p className="contact-info" >📧 aude.sedillo@gmail.com</p>
+      <button className="btn-send-email" onClick={() => (window.location = `mailto:aude.sedillo@gmail.com`)}>Send me a email</button>
+        <p>
           <FaLinkedin />{" "}
           <Link
             className="linkedin-link"
@@ -30,7 +31,7 @@ function Contact() {
             LinkedIn
           </Link>
         </p>
-        <p className="contact-info">
+        <p>
           <FaGithub />{" "}
           <Link
             to="https://github.com/Dezau1995"
@@ -41,6 +42,7 @@ function Contact() {
           </Link>
         </p>
       </section>
+
       <Footer />
     </main>
   );
