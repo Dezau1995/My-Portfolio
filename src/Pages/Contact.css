@@ -43,7 +43,7 @@
     border: none;
     position: absolute;
     right: 5%;
-    bottom: 34%;
+    bottom: 30%;
     padding: 0.5rem;
     box-shadow: 0px 0px 10px 0px black;
     animation: move-button 0.75s ease-in-out 0s infinite normal none;
