@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: row;
   overflow-y: scroll;
-  /* width: 80%; */
   cursor: pointer;
 }
 
