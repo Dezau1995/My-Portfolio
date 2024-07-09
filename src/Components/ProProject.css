@@ -52,7 +52,7 @@
   text-shadow: 0px 0px 5px black;
 }
 
-.section-whireframe-models {
+.section-wireframe-models {
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-block-color);
@@ -70,7 +70,7 @@
   margin: 10px 0;
 }
 
-.title-section-whireframe {
+.title-section-wireframe {
   font-size: 30px;
   color: var(--third-color);
 }
@@ -82,7 +82,7 @@
   margin-top: 10px;
 }
 
-.picture-whireframe {
+.picture-wireframe {
   width: 400px;
   height: 300px;
   border-radius: 10px;
@@ -145,7 +145,7 @@
     font-size: 25px;
   }
 
-  .title-section-whireframe {
+  .title-section-wireframe {
     font-size: 25px;
   }
 
@@ -158,7 +158,7 @@
     gap: 30px;
   }
 
-  .picture-whireframe {
+  .picture-wireframe {
     width: 80%;
     height: 70%;
   }

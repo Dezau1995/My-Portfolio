@@ -1,7 +1,6 @@
 import "../Components/ProProject.css";
 import maquette_rr from "../assets/image/picture-rr/maquette-rr.png";
 import maquette_rr_2 from "../assets/image/picture-rr/maquette-rr-2.png";
-import Footer from "../Components/Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
 import SliderHackathon1 from "../Components/SliderHackathon1";
 
@@ -19,46 +18,49 @@ function Hackathon1() {
         <motion.div className="progress-bar" style={{ scaleX }} />
         <section className="section-title-project">
           <h1 className="title-pro-project">
-            HACKATHON
+            Hackathon
             <br />
-            RIGOL'APP
+            Rigol'App
           </h1>
         </section>
         <section className="section-presentation">
           <section className="section-introduction-description">
-            <h2 className="title-introduction">INTRODUCTION</h2>
+            <h2 className="title-introduction">Introduction</h2>
             <p className="paragraph-project">
-              LET ME INTRODUCE YOU TO MY FIRST HACKATHON AFTER A TWO MOUNTH OF
-              TRAINING AS A WEB DEVELOPMENT STUDENT. DEVELOPED IN 36 HOURS BY 5
-              PEOPLE: COLINE GROSSO, MAXIME MAUFRONT, YANN LAHELLEC, RYADH YOLDI
-              AND MYSELF.
+              Laissez moi vous présenter mon premier hackathon après deux mois
+              de formation en tant qu'étudiante en développement web. Développé
+              en 36 heures par 5 personnes : Coline Grosso, Maxime Maufront,
+              Yann Lahellec, Ryadh Yoldi et moi-même.
             </p>
             <p className="paragraph-project">
-              THE THEME OF THE HACKATHON WAS "DECONNEXION AND NATURE", THE
-              OBJECTIF WAS TO BUILD A WEBSITE OR WEB MOBILE APPLICATION BASED ON
-              ANY IDEA WE CAN HAVE AROUND THE SUBJECT.
+              Le thème du hackathon était "Déconnexion et Nature". L'objectif
+              était de créer un site web ou une application web mobile basé sur
+              n'importe quelle idée que nous pouvions avoir autour de ce sujet.
             </p>
             <p className="paragraph-project">
-              WE WANTED TO CREATE SOMETHING FUNNY AND ON A SUBJECT WE USUALLY HAVE
-              FUN ON IT. BUT WITH DETERMINATION, ALSO PROVE THAT WE CAN BUILD A
-              SERIOUS PROJECT.
+              Nous voulions créer quelque chose de drôle et sur un sujet avec
+              lequel nous nous amusons habituellement. Mais avec détermination,
+              nous voulions aussi prouver que nous pouvions réaliser un projet
+              sérieux.
             </p>
           </section>
           <section className="section-introduction-description">
-            <h2 className="title-description-pro-project">DESCRIPTION</h2>
+            <h2 className="title-description-pro-project">Description</h2>
             <p className="paragraph-project">
-              WE HAD THE IDEA OF MAKING A APPLICATION BASED ON SOMETHING CALLED
-              IN FRENCH "YOGA DU RIRE", "LAUGHTER YOGA". THE "YOGA DU RIRE"
-              REDUCE STRESS, STRENGTHEN THE IMMUNE SYSTEM AND IMPROVED THE MOOD.
+              Nous avons eu l'idée de créer une application basée sur le Yoga du
+              Rire. Le Yoga du Rire réduit le stress, renforce le système
+              immunitaire et améliore l'humeur.
               <br />
               <br />
-              WE WANTED TO PROMOTE MENTAL AND PHYSICAL WELL-BEING SO WE CREATED
-              THIS APPLICATION TO ALLOW USERS TO HAVE EASIESTLY ACCES AND MAKE
-              IT MORE FLEXIBLE FOR DAILY PRACTICE.
+              Nous voulions promouvoir le bien-être mental et physique, donc
+              nous avons créé cette application pour permettre aux utilisateurs
+              d'y accéder plus facilement et de rendre la pratique quotidienne
+              plus flexible.
               <br />
               <br />
-              LAUGHT IS OFTEN NEGLECT EVERYDAY, WITH THIS APPLICATION WE OFFERT
-              A SIMPLE WAY TO INTEGRATE IT IN DAILY ROUTING.
+              Le rire est souvent négligé au quotidien. Avec cette application,
+              nous offrons un moyen simple de l'intégrer dans la routine
+              quotidienne.
             </p>
           </section>
         </section>
@@ -74,7 +76,6 @@ function Hackathon1() {
           </div>
         </section>
         <SliderHackathon1 />
-        <Footer />
       </section>
     </main>
   );

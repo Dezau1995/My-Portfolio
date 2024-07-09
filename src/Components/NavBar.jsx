@@ -23,13 +23,13 @@ function NavBar() {
             navigate("/about");
           }}
         >
-          ABOUT
+          A PROPOS
         </button>
         <button
           className="btn-navigation"
           onClick={handleModalWorkshop}
         >
-          PRO PROJECT
+          PROJET PRO
         </button>
         {openModalWorkshop && <ModalWorkshop closeModalWorkshop={setOpenModalWorkshop}/>}
         <button
@@ -38,7 +38,7 @@ function NavBar() {
             navigate("/personnal-project");
           }}
         >
-          PERSONNAL PROJECT
+          PROJET PERSO
         </button>
         <button
           className="btn-navigation"

@@ -20,43 +20,45 @@ function ProProject2() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          PROJECT :
+          Projet :
           <br />
-          FILM FUSION
+          Film Fusion
         </h1>
       </section>
       <section className="section-presentation">
         <section className="section-introduction-description">
-          <h2 className="title-introduction">INTRODUCTION</h2>
+          <h2 className="title-introduction">Introduction</h2>
           <p className="paragraph-project">
-            HERE MY SECOND WEBSITE PROJECT AFTER TWO MONTH OF TRAINING AS A WEB
-            DEVELOPMENT STUDENT.
-            </p>
-            <p className="paragraph-project">
-            THIS PROJECT WAS DEVELOPED IN 4 WEEKS BY 3 PEOPLE: MICKAEL
-            BEAUGRAND, RYADH YOLDI AND MYSELF.
-            </p>
-            <p className="paragraph-project">
-            THE OBJECTIVE WAS TO BUILD A WEBSITE USING THE FOLLOWING
-            TECHNOLOGIES : HTML, CSS, REACT JS, AND FETCHING DATA FROM API.
+            Voici mon deuxième projet de site web après deux mois de formation
+            en tant qu'étudiante en développement web.
+          </p>
+          <p className="paragraph-project">
+            Ce projet a été développé en 4 semaines par 3 personnes : Mickaël
+            Beaugrand, Ryadh Yoldi et moi-même.
+          </p>
+          <p className="paragraph-project">
+            L'objectif était de construire un site web en utilisant les
+            technologies suivantes : HTML, CSS, React.js, et de récupérer des
+            données à partir d'une API.
           </p>
         </section>
         <section className="section-introduction-description">
-          <h2 className="title-description-pro-project">DESCRIPTION</h2>
+          <h2 className="title-description-pro-project">Description</h2>
           <p className="paragraph-project">
-            WE DID A WEBSITE ABOUT MOVIES AND DECIDED TO STAND OUT BY SETTING UP
-            A FORUM SECTION WHERE USERS AND GUESTS CAN DISCUSS AND CHAT TOGETHER
-            TO FIND IDEAS OR JUST ABOUT THEIR PASSION.
+            Nous avons réalisé un site web sur les films et avons décidé de nous
+            démarquer en mettant en place une section forum où les utilisateurs
+            et les invités peuvent discuter et échanger des idées, ou simplement
+            parler de leur passion.
           </p>
         </section>
       </section>
-      <section className="section-whireframe-models">
-        <h3 className="title-section-whireframe">WHIREFRAME & MODELS</h3>
+      <section className="section-wireframe-models">
+        <h3 className="title-section-wireframe">Wireframe & Maquettes</h3>
         <div className="display-image">
           <img
             src={filmFusion_whireframe}
             alt="whireframe"
-            className="picture-whireframe"
+            className="picture-wireframe"
           />
           <img
             src={filmFusion_Models}
@@ -74,7 +76,6 @@ function ProProject2() {
         </div>
       </section>
       <SliderProject2 />
-      <Footer />
     </main>
   );
 }

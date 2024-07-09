@@ -43,6 +43,7 @@
 
 .section-title-pro-home {
   text-align: center;
+  font-weight: 900;
   color: var(--typo-darkbg-color);
   background-color: var(--secondary-block-color);
   width: 80%;
@@ -63,8 +64,8 @@
 .title-site-pro {
   font-size: 35px;
   color: var(--secondary-color);
-  text-shadow: var(--typo-darkbg-color) -1px 0px;
   margin: 10px 0;
+  font-weight: 600;
 }
 
 .display-modal-btn {
@@ -118,7 +119,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   width: 20vw;
   height: 25vh;
@@ -138,7 +139,7 @@
 .title-project-workshop-hackathon {
   color: var(--secondary-color);
   font-size: 35px;
-  text-shadow: var(--typo-darkbg-color) -1px 0px;
+  font-weight: 600;
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
@@ -162,7 +163,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 30vw;
-    height: max-content;
     padding: 15px;
   }
 
@@ -183,7 +183,6 @@
   }
   .section-btn-workshop-hackathon {
     width: 30vw;
-    height: max-content;
     margin: 10px 0;
     padding: 10px;
   }
@@ -195,8 +194,8 @@
     font-size: medium;
     width: 35px;
     height: 35px;
-    top: 15px;
-    right: 15px;
+    top: 1%;
+    right: 2%;
   }
 
   .title-project-workshop-hackathon {
@@ -206,17 +205,15 @@
 
 @media (min-width: 750px) and (max-width: 1200px) {
   .button-close-workshop {
-    top: 15px;
-    right: 15px;
+    top: 1%;
+    right: 2%;
   }
 
-  .section-btn-pro{
+  .section-btn-pro {
     width: 25vw;
-    height: max-content;
   }
 
-  .section-btn-workshop-hackathon{
+  .section-btn-workshop-hackathon {
     width: 25vw;
-    height: 20vw;
   }
 }

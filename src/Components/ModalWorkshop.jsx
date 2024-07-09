@@ -23,7 +23,7 @@ function ModalWorkshop({ closeModalWorkshop }) {
           <div className="display-pro-home">
             <section className="section-title-pro-home">
               <h1 className="title-pro-home">
-                WELCOME ON MY PROJECTS, COME HAVE A LOOK
+                Bienvenue sur mes projets, venez les découvrir.
               </h1>
             </section>
             <section className="display-modal-btn">
@@ -33,10 +33,10 @@ function ModalWorkshop({ closeModalWorkshop }) {
                   className="section-btn-pro"
                 >
                   <div>
-                    <h2 className="title-project-pro-home">PROJECT</h2>
+                    <h2 className="title-project-pro-home">Projet</h2>
                     <p className="title-site-pro">
-                      FILM
-                      <br /> FUSION
+                      Film
+                      <br /> Fusion
                     </p>
                   </div>
                 </section>
@@ -44,10 +44,10 @@ function ModalWorkshop({ closeModalWorkshop }) {
                   onClick={() => handleModalWorkshop("/pro-project-1")}
                   className="section-btn-pro"
                 >
-                  <h2 className="title-project-pro-home">PROJECT</h2>
+                  <h2 className="title-project-pro-home">Projet</h2>
                   <p className="title-site-pro">
-                    LES RECETTES
-                    <br /> WILD
+                    Les Recettes
+                    <br /> Wild
                   </p>
                 </section>
               </section>
@@ -56,19 +56,19 @@ function ModalWorkshop({ closeModalWorkshop }) {
                   onClick={() => handleModalWorkshop("/hackathon-1")}
                   className="section-btn-workshop-hackathon"
                 >
-                  <h2>HACKATHON</h2>
-                  <h1 className="title-project-workshop-hackathon">
-                    RIGOL'APP
-                  </h1>
+                  <h2 className="title-project-pro-home">Hackathon</h2>
+                  <p className="title-project-workshop-hackathon">
+                    Rigol'App
+                  </p>
                 </section>
                 <section
                   onClick={() => handleModalWorkshop("/workshop-1")}
                   className="section-btn-workshop-hackathon"
                 >
-                  <h2>PROJECT</h2>
-                  <h1 className="title-project-workshop-hackathon">
-                    RICK & MORTY
-                  </h1>
+                  <h2 className="title-project-pro-home">Projet</h2>
+                  <p className="title-project-workshop-hackathon">
+                    Rick & Morty
+                  </p>
                 </section>
               </section>
             </section>

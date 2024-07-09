@@ -16,25 +16,26 @@ function Workshop() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          WORKSHOP :
+          Workshop :
           <br />
-          RICK & MORTY
+          Rick & Morty
         </h1>
       </section>
       <section className="section-presentation">
         <section className="section-introduction-description">
-          <h2 className="title-introduction">INTRODUCTION</h2>
+          <h2 className="title-introduction">Introduction</h2>
           <p className="paragraph-project">
-            I WANTED TO HIGHLIGHT THIS WORKSHOP CAUSE IT WAS USEFUL TO PRACTICE
-            SKILLS THAT I DIDN'T USED ON MY PROJECTS, LIKE CREATE A CONTEXT.
+            Je voulais mettre en avant cet atelier car il m'a permis de
+            pratiquer des compétences que je n'avais pas utilisées dans mes
+            projets, comme la création d'un contexte.
           </p>
           <p className="paragraph-project">
-            I WORKED WITH MAP AND FILTER METHODS, FETCHING API AND USECONTEXT.
-            CONTEXT HERE IS USEFUL TO CHANGE THEMES (DARK OR LIGHT).
+            J'ai travaillé avec les méthodes map et filter, j'ai récupéré des
+            API avec fetch et utilisé useContext. Le contexte est ici utile pour
+            changer les thèmes (sombre ou clair).
           </p>
           <p className="paragraph-project">
-            I WANTED TO HAVE FUN ON RECREATE ALL THE DESIGN OF THIS PROJECT WITH
-            CSS.
+            Je voulais m'amuser à recréer tout le design de ce projet avec CSS.
           </p>
         </section>
       </section>

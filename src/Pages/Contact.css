@@ -27,7 +27,7 @@
   font-size: 100px;
   line-height: 113.5%;
   margin: 15px 25px;
-  text-shadow: var(--typo-darkbg-color) -10px -5px;
+  text-shadow: var(--typo-darkbg-color) -5px -5px;
 }
 
 .section-contact-info {
@@ -43,7 +43,7 @@
     border: none;
     position: absolute;
     right: 5%;
-    bottom: 30%;
+    bottom: 5%;
     padding: 0.5rem;
     box-shadow: 0px 0px 10px 0px black;
     animation: move-button 0.75s ease-in-out 0s infinite normal none;
@@ -80,12 +80,13 @@
 
   .contact-text-decoration {
     display: flex;
-    font-size: 50px;
-    text-shadow: var(--typo-darkbg-color) -5px -5px;
+    font-size: 2.75rem;
+    text-shadow: var(--typo-darkbg-color) -2px -2px;
   }
+
   .section-contact-info {
     .btn-send-email {
-      bottom: 15%;
+      bottom: -5%;
     }
   }
 }
@@ -93,6 +94,12 @@
 @media (min-width: 750px) and (max-width: 1200px) {
   .contact-text-decoration {
     font-size: 80px;
+  }
+
+  .section-contact-info {
+    .btn-send-email {
+      bottom: 15%;
+    }
   }
 }
 

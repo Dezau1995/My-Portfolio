@@ -18,51 +18,54 @@ function ProProject1() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <section className="section-title-project">
         <h1 className="title-pro-project">
-          PROJECT :
+          Projet :
           <br />
-          LES RECETTES WILD
+          Les Recettes Wild
         </h1>
       </section>
       <section className="section-presentation">
         <section className="section-introduction-description">
-          <h2 className="title-introduction">INTRODUCTION</h2>
+          <h2 className="title-introduction">Introduction</h2>
           <p className="paragraph-project">
-            I PRESENT TO YOU MY FIRST WEBSITE PROJECT AFTER A MONTH OF TRAINING
-            AS A WEB DEVELOPMENT STUDENT.
+            Je vous présente mon premier projet de site web après un mois de
+            formation en tant qu'étudiante en développement web.
           </p>
           <p className="paragraph-project">
-            THIS PROJECT WAS DEVELOPED IN 2 WEEKS BY 3 PEOPLE: EMMANUELLE
-            CURIANT, MAXIME MAUFRONT AND MYSELF.
+            Ce projet a été développé en 2 semaines par 3 personnes : Emmanuelle
+            Curiant, Maxime Maufront et moi-même.
           </p>
           <p className="paragraph-project">
-            THE OBJECTIVE OF THE PROJECT WAS TO DEVELOP TECHNICAL SKILLS ON
-            HTML, CSS AND THE BASICS OF JAVASCRIPT.
+            L'objectif du projet était de développer des compétences techniques
+            en HTML, CSS et les bases de JavaScript.
           </p>
         </section>
         <section className="section-introduction-description">
-          <h2 className="title-description-pro-project">DESCRIPTION</h2>
+          <h2 className="title-description-pro-project">Description</h2>
           <p className="paragraph-project">
-            WE HAD THE IDEA OF MAKING A RECIPE SITE TO HELP THE WILDERS (STUDENT
-            AND PEOPLE AT THE WILD CODE SCHOOL) TO PREPARE THEIR LUNCH MORE
-            OFTEN.
+            Nous avons eu l'idée de créer un site de recettes pour aider les
+            Wilders (étudiants et personnes à la Wild Code School) à préparer
+            leur déjeuner plus facilement.
           </p>
-          <p className="paragraph-project">BECAUSE OF LACK OF IDEA, TIME AND DESIRE.</p>
-          <p className="paragraph-project">HOW ? WITH SIMPLE, FUN AND ECONOMIC RECIPES.</p>
+          <p className="paragraph-project">
+            En raison d'un manque d'idées, de temps et de motivation.
+          </p>
+          <p className="paragraph-project">
+            Comment ? Avec des recettes simples, amusantes et économiques.
+          </p>
         </section>
       </section>
-      <section className="section-whireframe-models">
-        <h3 className="title-section-whireframe">WHIREFRAME & MODELS</h3>
+      <section className="section-wireframe-models">
+        <h3 className="title-section-wireframe">Wireframes & Maquettes</h3>
         <div className="display-image">
           <img
             src={whireframe_P1}
             alt="whireframe"
-            className="picture-whireframe"
+            className="picture-wireframe"
           />
           <img src={maquette_P1} alt="models" className="picture-models" />
         </div>
       </section>
       <SliderProject1 />
-      <Footer />
     </main>
   );
 }

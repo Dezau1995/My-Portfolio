@@ -1,23 +1,20 @@
-import Footer from "../Components/Footer";
 import "./Home.css";
 
 function Home() {
-
   return (
     <main className="home-display">
       <section className="title-name">
-        <h1>AUDE SEDILLO</h1>
+        <h1>Aude Sedillo</h1>
       </section>
       <section className="header-job">
         <h1 className="text-decoration">WEB DEVELOPER FULLSTACK</h1>
       </section>
       <section className="description-job">
-        <p>
-          Looking for a work-study program as a front-end, back-end or
-          full-stack developer
+        <p className="home-description">
+          Je recherche une alternance en tant que développeuse front-end,
+          back-end ou full-stack.
         </p>
       </section>
-      <Footer />
     </main>
   );
 }

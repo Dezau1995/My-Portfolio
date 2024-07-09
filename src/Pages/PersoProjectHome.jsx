@@ -1,4 +1,4 @@
-import Footer from "../Components/Footer";
+
 import "./PersoProjectHome.css";
 
 function PersoProjectHome() {
@@ -7,7 +7,6 @@ function PersoProjectHome() {
       <section className="wip-header">
         <h1 className="">Work In Progress ...</h1>
       </section>
-      <Footer />
     </main>
   );
 }

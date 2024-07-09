@@ -5,6 +5,7 @@
 
 .btn-navigation {
   font-family: var(--font-family);
+  font-weight: 900;
   background-color: var(--secondary-color);
   border: none;
   border-radius: 5px;

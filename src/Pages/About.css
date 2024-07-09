@@ -124,11 +124,11 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 40vh;
+  height: max-content;
 }
 
 .title-web-skills {
-  font-size: 30px;
+  font-size: x-large;
   text-align: center;
 }
 
@@ -146,11 +146,12 @@
 }
 
 .subtitle-web-skills {
-  font-size: 23px;
+  font-size: small;
 }
 
 .skills-dev-web {
   color: var(--secondary-color);
+  font-size: small;
 }
 
 .progress-bar {

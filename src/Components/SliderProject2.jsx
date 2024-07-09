@@ -6,16 +6,16 @@ import SwiperP2 from "./SwiperP2";
 function SliderProject1() {
   return (
     <section className="display-slider">
-      <h1 className="title-section-website">THE WEBSITE</h1>
+      <h1 className="title-section-website">Petit coup d'oeil sur la réalisation</h1>
       <SwiperP2/>
       <section className="section-website-link">
-        <p className="p-website-link">COME HAVE A LOOK ON THE WEBSITE :</p>
+        <p className="p-website-link">Venez visiter le site :</p>
         <Link
           className="link-website"
           to="https://film-fusion-three.vercel.app/"
           target="_blank"
         >
-          CLICK HERE !
+          Film Fusion !
         </Link>
       </section>
     </section>

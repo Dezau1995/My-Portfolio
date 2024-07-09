@@ -1,4 +1,3 @@
-import Footer from "../Components/Footer";
 import "./Contact.css";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -8,19 +7,24 @@ function Contact() {
   return (
     <main className="contact-display">
       <div className="section-header-contact">
-      <section className="header-contact">
-        <h1 className="contact-text-decoration">
-          IF YOU’RE INTERESTED IN
-          <br /> MY PROFILE,
-          <br />
-          GET IN TOUCH !
-        </h1>
-      </section>
+        <section className="header-contact">
+          <h1 className="contact-text-decoration">
+            Intéressé par
+            <br /> mon profil ?
+            <br />
+            Contactez-moi !
+          </h1>
+        </section>
       </div>
       <section className="section-contact-info">
         <p>📍Paris, Ile-de-France, France</p>
-        <p className="contact-info" >📧 aude.sedillo@gmail.com</p>
-      <button className="btn-send-email" onClick={() => (window.location = `mailto:aude.sedillo@gmail.com`)}>Send me a email</button>
+        <p className="contact-info">📧 aude.sedillo@gmail.com</p>
+        <button
+          className="btn-send-email"
+          onClick={() => (window.location = `mailto:aude.sedillo@gmail.com`)}
+        >
+          Contactez moi !
+        </button>
         <p>
           <FaLinkedin />{" "}
           <Link
@@ -42,8 +46,6 @@ function Contact() {
           </Link>
         </p>
       </section>
-
-      <Footer />
     </main>
   );
 }

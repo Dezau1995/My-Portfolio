@@ -2,6 +2,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import NavBar from "../src/Components/NavBar.jsx";
 import "./App.css";
 import logo from "./assets/image/Logo-P.svg";
+import Footer from "./Components/Footer.jsx";
 
 function App() {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ function App() {
         <NavBar />
       </section>
       <Outlet />
+      <Footer />
     </div>
   );
 }
