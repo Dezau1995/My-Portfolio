@@ -50,6 +50,7 @@
 @media (min-width: 320px) and (max-width: 750px) {
   .title-section-website {
     font-size: 25px;
+    text-align: center;
   }
 
   .p-website-link {

@@ -64,13 +64,13 @@ function Hackathon1() {
             </p>
           </section>
         </section>
-        <section className="section-whireframe-models">
-          <h3 className="title-section-whireframe">MODELS</h3>
+        <section className="section-wireframe-models">
+          <h3 className="title-section-wireframe">MODELS</h3>
           <div className="display-image">
             <img
               src={maquette_rr}
               alt="whireframe"
-              className="picture-whireframe"
+              className="picture-wireframe"
             />
             <img src={maquette_rr_2} alt="models" className="picture-models" />
           </div>
