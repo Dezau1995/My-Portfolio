@@ -9,6 +9,7 @@
   align-items: center;
   height: max-content;
   font-size: 12px;
+  margin: 1rem 0;
 }
 
 @media (min-width: 320px) and (max-width: 750px) {

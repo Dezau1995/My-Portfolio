@@ -68,13 +68,13 @@
     flex-direction: column;
   }
 
-  .btn-navigation{
+  .btn-navigation {
     color: var(--main-color);
     transition: none;
   }
 
-  .btn-navigation:hover{
-    display: none;
+  .btn-navigation:hover {
+    color: var(--main-color);
     transform: none;
   }
 
