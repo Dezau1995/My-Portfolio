@@ -68,6 +68,16 @@
     flex-direction: column;
   }
 
+  .btn-navigation{
+    color: var(--main-color);
+    transition: none;
+  }
+
+  .btn-navigation:hover{
+    display: none;
+    transform: none;
+  }
+
   .btns-nav {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +85,6 @@
     align-items: center;
     width: 100vw;
     margin: 8px 0;
-    color: red;
   }
 
   .link-btn {
