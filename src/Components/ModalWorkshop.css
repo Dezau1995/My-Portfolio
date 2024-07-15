@@ -163,6 +163,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 30vw;
+    height: 20vh;
     padding: 15px;
   }
 
@@ -185,6 +186,7 @@
     width: 30vw;
     margin: 10px 0;
     padding: 10px;
+    height: 20vh;
   }
 
   .button-close-workshop {
