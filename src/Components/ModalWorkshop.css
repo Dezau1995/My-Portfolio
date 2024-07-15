@@ -147,7 +147,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 90vh;
   }
 
   .title-pro-home {
@@ -167,7 +167,7 @@
     transition: none;
   }
 
-  .section-btn-pro:hover{
+  .section-btn-pro:hover {
     transform: none;
   }
 
@@ -194,7 +194,7 @@
     transition: none;
   }
 
-  .section-btn-workshop-hackathon:hover{
+  .section-btn-workshop-hackathon:hover {
     transform: none;
   }
 
@@ -206,7 +206,7 @@
     width: 35px;
     height: 35px;
     top: 1%;
-    right: 2%;
+    right: 1%;
   }
 
   .title-project-workshop-hackathon {
