@@ -40,7 +40,6 @@ function Workshop() {
         </section>
       </section>
       <SliderWorkshop />
-      <Footer />
     </main>
   );
 }
